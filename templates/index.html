@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- スマホでちょうどいい大きさで表示するための設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おえかきやろか</title>
+  <!-- アイコン・ファビコン -->
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ url_for('static', filename='favicon-32.png') }}">
+  <link rel="icon" type="image/png" sizes="512x512"
+        href="{{ url_for('static', filename='icon-512.png') }}">
+  <!-- iPhone・iPadで「ホーム画面に追加」したときのアイコン -->
+  <link rel="apple-touch-icon"
+        href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+  <!-- Flaskのstaticフォルダの中のCSSを読み込む -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <!-- ヘッダー：タイトルとダークモード切り替え -->
+  <header class="app-header">
+    <h1 class="app-title">おえかきしよか</h1>
+    <button id="theme-toggle" class="icon-btn" type="button"
+            aria-label="ダークモードとライトモードを切り替える">🌙</button>
+  </header>
+
+  <main>
+
+    <!-- ==================================================
+         画面1：開始前（設定画面）
+         ================================================== -->
+    <section id="screen-setup" class="screen" aria-label="ゲーム設定">
+
+      <!-- お題ジャンルの選択 -->
+      <fieldset class="setting-group">
+        <legend>ジャンル</legend>
+        <div id="genre-row" class="genre-grid" role="radiogroup"
+             aria-label="お題ジャンルの選択">
+          <button type="button" class="genre-btn selected" data-genre="pokemon"
+                  role="radio" aria-checked="true"
+                  aria-label="ジャンルをポケモンにする">
+            <img src="{{ url_for('static', filename='genre_tiles/pokemon.webp') }}"
+                 alt="" aria-hidden="true">
+          </button>
+          <button type="button" class="genre-btn" data-genre="dataset:all"
+                  role="radio" aria-checked="false"
+                  aria-label="ジャンルをぜんぶにする">
+            <img src="{{ url_for('static', filename='genre_tiles/all.webp') }}"
+                 alt="" aria-hidden="true">
+          </button>
+        </div>
+      </fieldset>
+
+      <!-- 制限時間の選択 -->
+      <fieldset class="setting-group">
+        <legend>せいげん時間</legend>
+        <div class="btn-row" role="radiogroup" aria-label="制限時間の選択">
+          <button type="button" class="option-btn time-btn" data-time="10"
+                  role="radio" aria-checked="false" aria-label="制限時間10秒">10秒</button>
+          <button type="button" class="option-btn time-btn selected" data-time="30"
+                  role="radio" aria-checked="true" aria-label="制限時間30秒">30秒</button>
+          <button type="button" class="option-btn time-btn" data-time="60"
+                  role="radio" aria-checked="false" aria-label="制限時間60秒">60秒</button>
+          <button type="button" class="option-btn time-btn" data-time="120"
+                  role="radio" aria-checked="false" aria-label="制限時間120秒">120秒</button>
+        </div>
+      </fieldset>
+
+      <!-- 描く枚数の選択（1〜10枚） -->
+      <fieldset class="setting-group">
+        <legend>かく枚数</legend>
+        <div class="count-selector">
+          <button type="button" id="count-minus" class="count-btn"
+                  aria-label="枚数を1枚減らす">−</button>
+          <span id="count-display" class="count-display"
+                aria-live="polite" aria-label="選択中の枚数">5枚</span>
+          <button type="button" id="count-plus" class="count-btn"
+                  aria-label="枚数を1枚増やす">＋</button>
+        </div>
+      </fieldset>
+
+      <!-- 自動モードの選択 -->
+      <fieldset class="setting-group">
+        <legend>自動モード</legend>
+        <div class="btn-row" role="radiogroup" aria-label="自動モードの選択">
+          <button type="button" class="option-btn auto-btn selected" data-auto="off"
+                  role="radio" aria-checked="true" aria-label="自動モードをオフにする">オフ</button>
+          <button type="button" class="option-btn auto-btn" data-auto="on"
+                  role="radio" aria-checked="false" aria-label="自動モードをオンにする">オン</button>
+        </div>
+        <p class="setting-note">オンにすると、時間切れのあと自動で次のお題に進むよ</p>
+      </fieldset>
+
+      <!-- 切りかえ時のカウントダウンの選択 -->
+      <fieldset class="setting-group">
+        <legend>切りかえカウントダウン</legend>
+        <div class="btn-row" role="radiogroup" aria-label="切りかえ時カウントダウンの選択">
+          <button type="button" class="option-btn cd-btn selected" data-cd="off"
+                  role="radio" aria-checked="true"
+                  aria-label="切りかえ時のカウントダウンをなしにする">なし</button>
+          <button type="button" class="option-btn cd-btn" data-cd="on"
+                  role="radio" aria-checked="false"
+                  aria-label="切りかえ時のカウントダウンをありにする">あり</button>
+        </div>
+        <p class="setting-note">「あり」にすると、次のお題に切りかわるとき3秒カウントダウンが入るよ</p>
+      </fieldset>
+
+      <!-- スタートボタン（Sキーでも押せる） -->
+      <button type="button" id="start-btn" class="big-btn primary"
+              aria-label="ゲームをスタートする（Sキー）">
+        スタート！
+      </button>
+
+      <p class="hint">
+        キーボード：<kbd>S</kbd>スタート / <kbd>P</kbd>一時停止 / <kbd>N</kbd>次のお題
+      </p>
+    </section>
+
+    <!-- ==================================================
+         画面2：プレイ中
+         ================================================== -->
+    <section id="screen-play" class="screen hidden" aria-label="プレイ中">
+
+      <!-- 上部バー：枚数表示・出題数・メニューボタン -->
+      <div class="play-top">
+        <span id="sheet-progress" class="sheet-progress"
+              aria-live="polite" aria-label="現在の枚数">1 / 5 まいめ</span>
+        <span id="used-count-play" class="used-count-play">出題ずみ：0体</span>
+
+        <!-- メニュー（☰の中に一時停止・リセット・ホームに戻る） -->
+        <div class="menu-wrap">
+          <button type="button" id="menu-btn" class="icon-btn menu-btn"
+                  aria-haspopup="true" aria-expanded="false"
+                  aria-label="メニューを開く">☰</button>
+          <div id="menu-panel" class="menu-panel hidden" role="menu"
+               aria-label="ゲームメニュー">
+            <button type="button" id="pause-btn" class="menu-item" role="menuitem"
+                    aria-label="タイマーを一時停止する（Pキー）">⏸ 一時停止</button>
+            <button type="button" id="reset-btn" class="menu-item" role="menuitem"
+                    aria-label="このお題を最初からやりなおす">↻ リセット</button>
+            <button type="button" id="home-btn" class="menu-item" role="menuitem"
+                    aria-label="ホーム（設定画面）に戻る">🏠 ホームに戻る</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 残り時間ゲージ（プログレスバー） -->
+      <div class="gauge-wrap"
+           role="progressbar" id="time-gauge-wrap"
+           aria-label="残り時間ゲージ"
+           aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">
+        <div id="time-gauge" class="gauge-bar"></div>
+      </div>
+
+      <!-- お題のキャラクター表示 -->
+      <div class="character-area">
+        <!-- 読み込み中の表示 -->
+        <div id="loading" class="loading hidden" role="status" aria-live="polite">
+          <div class="spinner" aria-hidden="true"></div>
+          <p>お題をさがし中…</p>
+        </div>
+        <img id="character-image" class="character-image" src="" alt=""
+             draggable="false">
+        <p id="character-name" class="character-name" aria-live="polite"></p>
+      </div>
+
+      <!-- 一時停止中の表示（タップすると再開できる） -->
+      <button type="button" id="pause-banner" class="pause-banner hidden"
+              aria-label="一時停止中。タップで再開する">⏸ 一時停止中（タップで再開）</button>
+
+      <!-- 開始前の3秒カウントダウン（画面全体に重ねて表示） -->
+      <div id="countdown-overlay" class="overlay hidden" aria-live="assertive">
+        <span id="countdown-number" class="countdown-big">3</span>
+      </div>
+
+      <!-- 残り5秒からの数字カウントダウン（右下に小さく表示） -->
+      <div id="last-countdown" class="last-countdown hidden"
+           aria-live="assertive" aria-label="残り秒数">5</div>
+    </section>
+
+    <!-- ==================================================
+         画面3：時間切れ
+         ================================================== -->
+    <section id="screen-timeup" class="screen hidden" aria-label="時間切れ">
+      <p class="timeup-title" role="alert">⏰ タイムアップ！</p>
+      <p id="timeup-info" class="timeup-info"></p>
+      <div class="btn-col">
+        <button type="button" id="next-btn" class="big-btn primary"
+                aria-label="次のお題を表示する（Nキー）">▶ 次のお題</button>
+        <button type="button" id="retry-btn" class="big-btn"
+                aria-label="同じお題でもう一度描く">↻ 同じお題でもう一度</button>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         画面4：全枚数終了
+         ================================================== -->
+    <section id="screen-finish" class="screen hidden" aria-label="終了">
+      <p class="finish-title" role="alert">🎉 おつかれさま！</p>
+      <p id="finish-info" class="finish-info"></p>
+
+      <!-- 今回描いたお題の一覧（JavaScriptでここに並べる） -->
+      <div id="result-grid" class="result-grid"
+           role="list" aria-label="今回描いたお題の一覧"></div>
+
+      <button type="button" id="restart-btn" class="big-btn primary"
+              aria-label="最初からもう一度あそぶ（Sキー）">もういちど あそぶ</button>
+    </section>
+
+  </main>
+
+  <!-- 結果一覧の項目を押したときの拡大表示（画面全体に重ねる） -->
+  <div id="result-modal" class="overlay result-modal hidden"
+       role="dialog" aria-modal="true" aria-label="お題の拡大表示">
+    <button type="button" id="result-close" class="result-close"
+            aria-label="拡大表示を閉じる">✕</button>
+    <img id="result-modal-image" class="result-modal-image" src="" alt="">
+    <p id="result-modal-name" class="result-modal-name"></p>
+  </div>
+
+  <!-- フッター：出題済みのキャラクター数と問い合わせ -->
+  <footer class="app-footer">
+    <span id="used-count" aria-live="polite">出題ずみ：0体</span>
+    <a class="contact-link"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSeBHh42i79yQyOxn_Y8-1mZmrS3igtXoTIcH_N7lTaqSLrt5Q/viewform?usp=publish-editor"
+       target="_blank" rel="noopener noreferrer">
+      問い合わせ
+    </a>
+  </footer>
+
+  <!-- FlaskのstaticフォルダのJavaScriptを読み込む -->
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

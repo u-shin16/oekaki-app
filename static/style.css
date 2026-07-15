@@ -1,0 +1,723 @@
+/* ============================================================
+   おえかきやろか- スタイルシート
+   - スマホを机に置いて使う前提で、大きく見やすい表示にする
+   - ダークモードは body に .dark クラスを付けて切り替える
+   ============================================================ */
+
+/* ---------- 色の変数（ライトモード） ---------- */
+:root {
+  --bg: #fff8e7;            /* 背景：明るいクリーム色 */
+  --card: #ffffff;          /* カードの背景 */
+  --text: #33302a;          /* 文字色（コントラスト確保） */
+  --sub-text: #6b6455;      /* 補助的な文字色 */
+  --primary: #ff6b35;       /* メインカラー：元気なオレンジ */
+  --primary-dark: #e05a28;  /* 押したとき用の濃いオレンジ */
+  --accent: #2a9d8f;        /* アクセント：緑がかった青 */
+  --danger: #d62839;        /* 危険・リセット用の赤 */
+  --gauge-bg: #e8e0cc;      /* ゲージの背景 */
+  --gauge-ok: #2a9d8f;      /* ゲージ：ふつうの色 */
+  --gauge-warn: #f4a261;    /* ゲージ：残り10秒の色 */
+  --gauge-danger: #d62839;  /* ゲージ：残り5秒の色 */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --focus: #1d4ed8;         /* フォーカス時のアウトライン色 */
+}
+
+/* ---------- 色の変数（ダークモード） ---------- */
+body.dark {
+  --bg: #1c1b22;
+  --card: #2a2933;
+  --text: #f2efe6;
+  --sub-text: #b5af9f;
+  --primary: #ff7f4d;
+  --primary-dark: #ff6b35;
+  --accent: #4fc3b3;
+  --danger: #ff5a68;
+  --gauge-bg: #3a3944;
+  --gauge-ok: #4fc3b3;
+  --gauge-warn: #f4a261;
+  --gauge-danger: #ff5a68;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --focus: #8ab4ff;
+}
+
+/* ---------- 全体の基本設定 ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hiragino Maru Gothic ProN", "BIZ UDGothic",
+               "Yu Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* スマホでダブルタップ拡大しないようにする（誤操作防止） */
+  touch-action: manipulation;
+}
+
+/* キーボード操作時にフォーカスがはっきり見えるようにする */
+:focus-visible {
+  outline: 4px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ---------- ヘッダー ---------- */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.app-title {
+  font-size: 1.6rem;
+  color: var(--primary);
+  letter-spacing: 0.05em;
+}
+
+/* ダークモード切り替えボタン */
+.icon-btn {
+  font-size: 1.5rem;
+  background: var(--card);
+  border: 2px solid var(--gauge-bg);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+/* ---------- メイン領域 ---------- */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 8px 16px 24px;
+  position: relative;
+}
+
+/* 各画面（section）の共通スタイル */
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* .hidden が付いた画面は表示しない */
+.hidden {
+  display: none !important;
+}
+
+/* ---------- 設定画面 ---------- */
+.setting-group {
+  width: 100%;
+  border: none;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+
+.setting-group legend {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0 8px;
+  color: var(--sub-text);
+}
+
+/* 設定の下に添える小さな説明文 */
+.setting-note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--sub-text);
+  text-align: center;
+}
+
+/* ボタンを横に並べる行 */
+.btn-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* ボタンを縦に並べる列 */
+.btn-col {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* 制限時間などの選択ボタン */
+.option-btn {
+  flex: 1;
+  min-width: 70px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 16px 8px;
+  border: 3px solid var(--gauge-bg);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* 選択中のボタンは色を変えてわかりやすく */
+.option-btn.selected {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: #fff;
+}
+
+/* ---------- ジャンル選択（写真タイル） ---------- */
+/* グリッドにすることで、文字数がバラバラでもタイルの大きさがそろう */
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+/* 各タイルは「暗くした写真＋ジャンル名の文字」を焼き込んだ画像1枚で構成
+   （generate_genre_tiles.py で作成。static/genre_tiles/ に配置） */
+.genre-btn {
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid var(--gauge-bg);
+  border-radius: 16px;
+  background: var(--card);
+  cursor: pointer;
+}
+
+.genre-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.genre-btn.selected {
+  border-color: var(--primary);
+}
+
+/* データセットにまだ写真タイルが無いジャンルが来たときの保険
+  （アイコン＋ラベルで代用する。JS側の GENRE_ICONS を参照） */
+.genre-btn.icon-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--text);
+  font-family: inherit;
+}
+
+.genre-btn.icon-fallback.selected {
+  background: var(--primary);
+  color: #fff;
+}
+
+.genre-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.genre-label {
+  font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  /* 長いラベルでも2行までは折り返してタイルの外にはみ出さない */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 枚数選択（− 5枚 ＋） */
+.count-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.count-btn {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  background: var(--card);
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.count-btn:active {
+  background: var(--primary);
+  color: #fff;
+}
+
+.count-display {
+  font-size: 2rem;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* ---------- 大きなボタン（スタートなど） ---------- */
+.big-btn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 18px 28px;
+  border: none;
+  border-radius: 16px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 400px;
+}
+
+.big-btn:active {
+  transform: scale(0.97);
+}
+
+/* メインの目立つボタン（オレンジ） */
+.big-btn.primary {
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 20px 28px;
+}
+
+.big-btn.primary:active {
+  background: var(--primary-dark);
+}
+
+/* 危険なボタン（リセット） */
+.big-btn.danger {
+  background: transparent;
+  border: 3px solid var(--danger);
+  color: var(--danger);
+  box-shadow: none;
+}
+
+.hint {
+  color: var(--sub-text);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+kbd {
+  background: var(--card);
+  border: 1px solid var(--sub-text);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-family: inherit;
+}
+
+/* ---------- プレイ画面 ---------- */
+
+/* プレイ中（bodyに .playing が付く）はヘッダー・フッターを隠して
+   画面全体をゲームに使う（スクロールしなくても全部見えるように） */
+body.playing .app-header,
+body.playing .app-footer {
+  display: none;
+}
+
+body.playing {
+  overflow: hidden; /* プレイ中はスクロールさせない */
+}
+
+body.playing main {
+  height: 100dvh;      /* 画面の高さぴったりに収める */
+  max-width: 900px;    /* 大きい画面ではもう少し広く使う */
+  padding: 10px 16px 14px;
+  display: flex;       /* 中のプレイ画面を高さいっぱいに広げる */
+  flex-direction: column;
+}
+
+#screen-play {
+  flex: 1;        /* mainの高さを全部使う */
+  min-height: 0;
+  gap: 12px;
+}
+
+/* 上部バー（枚数・出題数・メニューボタン） */
+.play-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.sheet-progress {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.used-count-play {
+  color: var(--sub-text);
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ---------- メニュー（☰） ---------- */
+.menu-wrap {
+  position: relative; /* パネルをこのボタンの下に出すため */
+}
+
+.menu-btn {
+  border-radius: 14px;
+  font-size: 1.6rem;
+}
+
+/* ☰を押すと出てくるパネル */
+.menu-panel {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: var(--card);
+  border: 2px solid var(--gauge-bg);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-width: 230px;
+  overflow: hidden;
+  z-index: 60;
+}
+
+/* パネルの中の各ボタン */
+.menu-item {
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 16px 18px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--gauge-bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item:active {
+  background: var(--gauge-bg);
+}
+
+/* ---------- 一時停止中のバナー（タップで再開） ---------- */
+.pause-banner {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 26px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  z-index: 55;
+}
+
+/* 残り時間ゲージの外枠 */
+.gauge-wrap {
+  width: 100%;
+  height: 36px;
+  background: var(--gauge-bg);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ゲージ本体（幅%で残り時間を表す） */
+.gauge-bar {
+  height: 100%;
+  width: 100%;
+  background: var(--gauge-ok);
+  border-radius: 18px;
+  transition: width 0.1s linear, background-color 0.3s;
+}
+
+/* 残り10秒：オレンジにして点滅で強調 */
+.gauge-bar.warn {
+  background: var(--gauge-warn);
+  animation: pulse 1s infinite;
+}
+
+/* 残り5秒：赤くして速く点滅 */
+.gauge-bar.danger {
+  background: var(--gauge-danger);
+  animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.55; }
+}
+
+/* キャラクター表示エリア：残りの高さを全部使う */
+.character-area {
+  width: 100%;
+  flex: 1;          /* 画面の余った高さをすべてこのエリアに使う */
+  min-height: 0;    /* flexで縮められるようにするおまじない */
+  background: var(--card);
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  align-items: center;
+  justify-items: center;
+}
+
+/* キャラクター画像：どのお題でも同じ表示枠に収める */
+.character-image {
+  min-height: 0;
+  width: min(100%, 680px);
+  height: min(100%, 58dvh, 560px);
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+}
+
+/* キャラクター名 */
+.character-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* 読み込み中の表示 */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--sub-text);
+}
+
+/* くるくる回るスピナー */
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 6px solid var(--gauge-bg);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ---------- 3秒カウントダウンのオーバーレイ ---------- */
+.overlay {
+  position: fixed;
+  inset: 0;                          /* 画面全体を覆う */
+  background: rgba(0, 0, 0, 0.94);   /* ほぼ真っ暗にして集中させる */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+#countdown-overlay {
+  background: #000;
+}
+
+.countdown-big {
+  font-size: 9rem;
+  font-weight: bold;
+  color: #fff;
+  animation: pop 1s infinite;
+}
+
+@keyframes pop {
+  0%   { transform: scale(1.4); opacity: 0.4; }
+  30%  { transform: scale(1);   opacity: 1; }
+  100% { transform: scale(1);   opacity: 1; }
+}
+
+/* ---------- 残り5秒の数字カウントダウン（右下） ---------- */
+.last-countdown {
+  position: fixed;
+  right: 16px;
+  bottom: 72px;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--gauge-danger);
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  animation: pop 1s infinite;
+  z-index: 50;
+}
+
+/* ---------- 時間切れ画面 ---------- */
+.timeup-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--danger);
+  margin-top: 32px;
+}
+
+.timeup-info,
+.finish-info {
+  font-size: 1.2rem;
+  color: var(--sub-text);
+  text-align: center;
+}
+
+/* ---------- 終了画面 ---------- */
+.finish-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--accent);
+  margin-top: 32px;
+}
+
+/* 今回描いたお題の一覧（グリッド表示） */
+.result-grid {
+  width: 100%;
+  display: grid;
+  /* 画面幅に合わせて1行に入る数が自動で変わる */
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+/* 一覧の1項目（押すと拡大表示） */
+.result-item {
+  background: var(--card);
+  border: 2px solid var(--gauge-bg);
+  border-radius: 14px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  color: var(--text);
+}
+
+.result-item:active {
+  transform: scale(0.96);
+}
+
+.result-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  display: block;
+}
+
+.result-item .result-label {
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ---------- 拡大表示モーダル ---------- */
+.result-modal {
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  cursor: pointer; /* どこを押しても閉じられる */
+}
+
+.result-modal-image {
+  width: min(90vw, 640px);
+  height: min(70vh, 640px);
+  object-fit: contain;
+  display: block;
+}
+
+.result-modal-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+/* 右上の閉じるボタン */
+.result-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* ---------- フッター ---------- */
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 12px;
+  color: var(--sub-text);
+  font-size: 1rem;
+}
+
+.contact-link {
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-link:active,
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- スマホ（幅が狭い画面）向けの調整 ---------- */
+@media (max-width: 420px) {
+  .app-title      { font-size: 1.3rem; }
+  .countdown-big  { font-size: 6.5rem; }
+  .character-name { font-size: 1.5rem; }
+  .option-btn     { font-size: 1.05rem; padding: 14px 4px; }
+  .genre-grid     { grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); }
+  .genre-icon     { font-size: 2rem; }
+  .genre-label    { font-size: 0.85rem; }
+}
