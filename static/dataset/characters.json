@@ -1998,5 +1998,3175 @@
     "license": "CC0 1.0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "source": "https://stocksnap.io/photo/vintage-camera-J4CDXZDDC8"
+  },
+  {
+    "id": 201,
+    "name": "キツネ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f98a.svg"
+  },
+  {
+    "id": 202,
+    "name": "ウサギ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f407.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f407.svg"
+  },
+  {
+    "id": 203,
+    "name": "クマ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f43b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f43b.svg"
+  },
+  {
+    "id": 204,
+    "name": "カエル",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f438.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f438.svg"
+  },
+  {
+    "id": 205,
+    "name": "鳥",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f426.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f426.svg"
+  },
+  {
+    "id": 206,
+    "name": "チョウ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f98b.svg"
+  },
+  {
+    "id": 207,
+    "name": "ハチ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f41d.svg"
+  },
+  {
+    "id": 208,
+    "name": "テントウムシ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f41e.svg"
+  },
+  {
+    "id": 209,
+    "name": "アリ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f41c.svg"
+  },
+  {
+    "id": 210,
+    "name": "クモ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f577.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f577.svg"
+  },
+  {
+    "id": 211,
+    "name": "リンゴ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f34e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f34e.svg"
+  },
+  {
+    "id": 212,
+    "name": "バナナ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f34c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f34c.svg"
+  },
+  {
+    "id": 213,
+    "name": "おにぎり",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f359.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f359.svg"
+  },
+  {
+    "id": 214,
+    "name": "ピザ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f355.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f355.svg"
+  },
+  {
+    "id": 215,
+    "name": "ケーキ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f370.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f370.svg"
+  },
+  {
+    "id": 216,
+    "name": "チューリップ",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f337.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f337.svg"
+  },
+  {
+    "id": 217,
+    "name": "ヒマワリ",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f33b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f33b.svg"
+  },
+  {
+    "id": 218,
+    "name": "サボテン",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f335.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f335.svg"
+  },
+  {
+    "id": 219,
+    "name": "木",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f333.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f333.svg"
+  },
+  {
+    "id": 220,
+    "name": "ハーブ",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f33f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f33f.svg"
+  },
+  {
+    "id": 221,
+    "name": "山",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u26f0.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u26f0.svg"
+  },
+  {
+    "id": 222,
+    "name": "火山",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f30b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f30b.svg"
+  },
+  {
+    "id": 223,
+    "name": "日の出",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f305.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f305.svg"
+  },
+  {
+    "id": 224,
+    "name": "橋",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f309.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f309.svg"
+  },
+  {
+    "id": 225,
+    "name": "城",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3f0.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3f0.svg"
+  },
+  {
+    "id": 226,
+    "name": "ネズミ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f401.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f401.svg"
+  },
+  {
+    "id": 227,
+    "name": "ネズミの顔",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f42d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f42d.svg"
+  },
+  {
+    "id": 228,
+    "name": "ラット",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f400.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f400.svg"
+  },
+  {
+    "id": 229,
+    "name": "ハムスター",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f439.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f439.svg"
+  },
+  {
+    "id": 230,
+    "name": "シマリス",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f43f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f43f.svg"
+  },
+  {
+    "id": 231,
+    "name": "ビーバー",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9ab.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9ab.svg"
+  },
+  {
+    "id": 232,
+    "name": "ハリネズミ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f994.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f994.svg"
+  },
+  {
+    "id": 233,
+    "name": "コウモリ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f987.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f987.svg"
+  },
+  {
+    "id": 234,
+    "name": "オオカミ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f43a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f43a.svg"
+  },
+  {
+    "id": 235,
+    "name": "シカ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f98c.svg"
+  },
+  {
+    "id": 236,
+    "name": "イノシシ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f417.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f417.svg"
+  },
+  {
+    "id": 237,
+    "name": "ブタ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f416.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f416.svg"
+  },
+  {
+    "id": 238,
+    "name": "ブタの顔",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f437.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f437.svg"
+  },
+  {
+    "id": 239,
+    "name": "ウシ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f404.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f404.svg"
+  },
+  {
+    "id": 240,
+    "name": "ウシの顔",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f42e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f42e.svg"
+  },
+  {
+    "id": 241,
+    "name": "雄牛",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f402.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f402.svg"
+  },
+  {
+    "id": 242,
+    "name": "水牛",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f403.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f403.svg"
+  },
+  {
+    "id": 243,
+    "name": "バイソン",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9ac.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9ac.svg"
+  },
+  {
+    "id": 244,
+    "name": "ヤギ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f410.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f410.svg"
+  },
+  {
+    "id": 245,
+    "name": "ヒツジ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f411.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f411.svg"
+  },
+  {
+    "id": 246,
+    "name": "雄ヒツジ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40f.svg"
+  },
+  {
+    "id": 247,
+    "name": "ラマ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f999.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f999.svg"
+  },
+  {
+    "id": 248,
+    "name": "キリン",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f992.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f992.svg"
+  },
+  {
+    "id": 249,
+    "name": "ゾウ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f418.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f418.svg"
+  },
+  {
+    "id": 250,
+    "name": "マンモス",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a3.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a3.svg"
+  },
+  {
+    "id": 251,
+    "name": "サイ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f98f.svg"
+  },
+  {
+    "id": 252,
+    "name": "カバ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f99b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f99b.svg"
+  },
+  {
+    "id": 253,
+    "name": "ラクダ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f42a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f42a.svg"
+  },
+  {
+    "id": 254,
+    "name": "ヒトコブラクダ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f42b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f42b.svg"
+  },
+  {
+    "id": 255,
+    "name": "カンガルー",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f998.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f998.svg"
+  },
+  {
+    "id": 256,
+    "name": "スカンク",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a8.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a8.svg"
+  },
+  {
+    "id": 257,
+    "name": "アナグマ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a1.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a1.svg"
+  },
+  {
+    "id": 258,
+    "name": "サル",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f412.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f412.svg"
+  },
+  {
+    "id": 259,
+    "name": "ゴリラ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f98d.svg"
+  },
+  {
+    "id": 260,
+    "name": "オランウータン",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a7.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a7.svg"
+  },
+  {
+    "id": 261,
+    "name": "イヌ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f415.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f415.svg"
+  },
+  {
+    "id": 262,
+    "name": "プードル",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f429.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f429.svg"
+  },
+  {
+    "id": 263,
+    "name": "ネコ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f408.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f408.svg"
+  },
+  {
+    "id": 264,
+    "name": "トラ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f405.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f405.svg"
+  },
+  {
+    "id": 265,
+    "name": "ヒョウ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f406.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f406.svg"
+  },
+  {
+    "id": 266,
+    "name": "ウマ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40e.svg"
+  },
+  {
+    "id": 267,
+    "name": "シマウマ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f993.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f993.svg"
+  },
+  {
+    "id": 268,
+    "name": "ニワトリ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f414.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f414.svg"
+  },
+  {
+    "id": 269,
+    "name": "オンドリ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f413.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f413.svg"
+  },
+  {
+    "id": 270,
+    "name": "七面鳥",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f983.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f983.svg"
+  },
+  {
+    "id": 271,
+    "name": "アヒル",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f986.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f986.svg"
+  },
+  {
+    "id": 272,
+    "name": "ワシ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f985.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f985.svg"
+  },
+  {
+    "id": 273,
+    "name": "フクロウ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f989.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f989.svg"
+  },
+  {
+    "id": 274,
+    "name": "ドードー",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a4.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a4.svg"
+  },
+  {
+    "id": 275,
+    "name": "フラミンゴ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a9.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a9.svg"
+  },
+  {
+    "id": 276,
+    "name": "クジャク",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f99a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f99a.svg"
+  },
+  {
+    "id": 277,
+    "name": "オウム",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f99c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f99c.svg"
+  },
+  {
+    "id": 278,
+    "name": "ハクチョウ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9a2.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9a2.svg"
+  },
+  {
+    "id": 279,
+    "name": "ペンギン",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f427.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f427.svg"
+  },
+  {
+    "id": 280,
+    "name": "ハト",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f54a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f54a.svg"
+  },
+  {
+    "id": 281,
+    "name": "イルカ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f42c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f42c.svg"
+  },
+  {
+    "id": 282,
+    "name": "魚",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f41f.svg"
+  },
+  {
+    "id": 283,
+    "name": "熱帯魚",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f420.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f420.svg"
+  },
+  {
+    "id": 284,
+    "name": "フグ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f421.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f421.svg"
+  },
+  {
+    "id": 285,
+    "name": "サメ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f988.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f988.svg"
+  },
+  {
+    "id": 286,
+    "name": "クジラ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40b.svg"
+  },
+  {
+    "id": 287,
+    "name": "潮を吹くクジラ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f433.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f433.svg"
+  },
+  {
+    "id": 288,
+    "name": "アザラシ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9ad.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9ad.svg"
+  },
+  {
+    "id": 289,
+    "name": "タコ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f419.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f419.svg"
+  },
+  {
+    "id": 290,
+    "name": "イカ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f991.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f991.svg"
+  },
+  {
+    "id": 291,
+    "name": "エビ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f990.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f990.svg"
+  },
+  {
+    "id": 292,
+    "name": "ロブスター",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f99e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f99e.svg"
+  },
+  {
+    "id": 293,
+    "name": "カニ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f980.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f980.svg"
+  },
+  {
+    "id": 294,
+    "name": "カキ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9aa.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9aa.svg"
+  },
+  {
+    "id": 295,
+    "name": "クラゲ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fabc.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fabc.svg"
+  },
+  {
+    "id": 296,
+    "name": "カメ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f422.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f422.svg"
+  },
+  {
+    "id": 297,
+    "name": "ワニ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40a.svg"
+  },
+  {
+    "id": 298,
+    "name": "ヘビ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40d.svg"
+  },
+  {
+    "id": 299,
+    "name": "トカゲ",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f98e.svg"
+  },
+  {
+    "id": 300,
+    "name": "ドラゴン",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f409.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f409.svg"
+  },
+  {
+    "id": 301,
+    "name": "ティラノサウルス",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f996.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f996.svg"
+  },
+  {
+    "id": 302,
+    "name": "首長竜",
+    "category": "動物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f995.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f995.svg"
+  },
+  {
+    "id": 303,
+    "name": "イモムシ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f41b.svg"
+  },
+  {
+    "id": 304,
+    "name": "カタツムリ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f40c.svg"
+  },
+  {
+    "id": 305,
+    "name": "コオロギ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f997.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f997.svg"
+  },
+  {
+    "id": 306,
+    "name": "甲虫",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab2.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fab2.svg"
+  },
+  {
+    "id": 307,
+    "name": "ゴキブリ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab3.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fab3.svg"
+  },
+  {
+    "id": 308,
+    "name": "ハエ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab0.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fab0.svg"
+  },
+  {
+    "id": 309,
+    "name": "蚊",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f99f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f99f.svg"
+  },
+  {
+    "id": 310,
+    "name": "ミミズ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab1.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fab1.svg"
+  },
+  {
+    "id": 311,
+    "name": "サソリ",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f982.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f982.svg"
+  },
+  {
+    "id": 312,
+    "name": "クモの巣",
+    "category": "昆虫",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f578.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f578.svg"
+  },
+  {
+    "id": 313,
+    "name": "青リンゴ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f34f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f34f.svg"
+  },
+  {
+    "id": 314,
+    "name": "洋ナシ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f350.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f350.svg"
+  },
+  {
+    "id": 315,
+    "name": "ミカン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f34a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f34a.svg"
+  },
+  {
+    "id": 316,
+    "name": "レモン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f34b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f34b.svg"
+  },
+  {
+    "id": 317,
+    "name": "スイカ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f349.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f349.svg"
+  },
+  {
+    "id": 318,
+    "name": "ブドウ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f347.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f347.svg"
+  },
+  {
+    "id": 319,
+    "name": "イチゴ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f353.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f353.svg"
+  },
+  {
+    "id": 320,
+    "name": "メロン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f348.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f348.svg"
+  },
+  {
+    "id": 321,
+    "name": "サクランボ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f352.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f352.svg"
+  },
+  {
+    "id": 322,
+    "name": "モモ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f351.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f351.svg"
+  },
+  {
+    "id": 323,
+    "name": "パイナップル",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f34d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f34d.svg"
+  },
+  {
+    "id": 324,
+    "name": "マンゴー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f96d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f96d.svg"
+  },
+  {
+    "id": 325,
+    "name": "キウイ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f95d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f95d.svg"
+  },
+  {
+    "id": 326,
+    "name": "トマト",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f345.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f345.svg"
+  },
+  {
+    "id": 327,
+    "name": "オリーブ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fad2.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fad2.svg"
+  },
+  {
+    "id": 328,
+    "name": "ココナッツ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f965.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f965.svg"
+  },
+  {
+    "id": 329,
+    "name": "アボカド",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f951.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f951.svg"
+  },
+  {
+    "id": 330,
+    "name": "ナス",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f346.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f346.svg"
+  },
+  {
+    "id": 331,
+    "name": "ジャガイモ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f954.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f954.svg"
+  },
+  {
+    "id": 332,
+    "name": "ニンジン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f955.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f955.svg"
+  },
+  {
+    "id": 333,
+    "name": "トウモロコシ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f33d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f33d.svg"
+  },
+  {
+    "id": 334,
+    "name": "唐辛子",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f336.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f336.svg"
+  },
+  {
+    "id": 335,
+    "name": "パプリカ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fad1.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fad1.svg"
+  },
+  {
+    "id": 336,
+    "name": "キュウリ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f952.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f952.svg"
+  },
+  {
+    "id": 337,
+    "name": "葉野菜",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f96c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f96c.svg"
+  },
+  {
+    "id": 338,
+    "name": "ブロッコリー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f966.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f966.svg"
+  },
+  {
+    "id": 339,
+    "name": "ニンニク",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c4.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c4.svg"
+  },
+  {
+    "id": 340,
+    "name": "タマネギ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c5.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c5.svg"
+  },
+  {
+    "id": 341,
+    "name": "ピーナッツ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f95c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f95c.svg"
+  },
+  {
+    "id": 342,
+    "name": "豆",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fad8.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fad8.svg"
+  },
+  {
+    "id": 343,
+    "name": "クリ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f330.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f330.svg"
+  },
+  {
+    "id": 344,
+    "name": "ショウガ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fada.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fada.svg"
+  },
+  {
+    "id": 345,
+    "name": "エンドウ豆",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fadb.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fadb.svg"
+  },
+  {
+    "id": 346,
+    "name": "キノコ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f344.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f344.svg"
+  },
+  {
+    "id": 347,
+    "name": "パン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f35e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f35e.svg"
+  },
+  {
+    "id": 348,
+    "name": "クロワッサン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f950.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f950.svg"
+  },
+  {
+    "id": 349,
+    "name": "フランスパン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f956.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f956.svg"
+  },
+  {
+    "id": 350,
+    "name": "ナン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fad3.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fad3.svg"
+  },
+  {
+    "id": 351,
+    "name": "プレッツェル",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f968.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f968.svg"
+  },
+  {
+    "id": 352,
+    "name": "ベーグル",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f96f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f96f.svg"
+  },
+  {
+    "id": 353,
+    "name": "パンケーキ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f95e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f95e.svg"
+  },
+  {
+    "id": 354,
+    "name": "ワッフル",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c7.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c7.svg"
+  },
+  {
+    "id": 355,
+    "name": "チーズ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c0.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c0.svg"
+  },
+  {
+    "id": 356,
+    "name": "骨付き肉",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f356.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f356.svg"
+  },
+  {
+    "id": 357,
+    "name": "鶏もも肉",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f357.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f357.svg"
+  },
+  {
+    "id": 358,
+    "name": "ステーキ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f969.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f969.svg"
+  },
+  {
+    "id": 359,
+    "name": "ベーコン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f953.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f953.svg"
+  },
+  {
+    "id": 360,
+    "name": "ハンバーガー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f354.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f354.svg"
+  },
+  {
+    "id": 361,
+    "name": "フライドポテト",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f35f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f35f.svg"
+  },
+  {
+    "id": 362,
+    "name": "ホットドッグ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f32d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f32d.svg"
+  },
+  {
+    "id": 363,
+    "name": "サンドイッチ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f96a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f96a.svg"
+  },
+  {
+    "id": 364,
+    "name": "タコス",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f32e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f32e.svg"
+  },
+  {
+    "id": 365,
+    "name": "ブリトー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f32f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f32f.svg"
+  },
+  {
+    "id": 366,
+    "name": "タマル",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fad4.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fad4.svg"
+  },
+  {
+    "id": 367,
+    "name": "ケバブ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f959.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f959.svg"
+  },
+  {
+    "id": 368,
+    "name": "ファラフェル",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c6.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c6.svg"
+  },
+  {
+    "id": 369,
+    "name": "卵",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f95a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f95a.svg"
+  },
+  {
+    "id": 370,
+    "name": "目玉焼き",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f373.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f373.svg"
+  },
+  {
+    "id": 371,
+    "name": "シチュー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f372.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f372.svg"
+  },
+  {
+    "id": 372,
+    "name": "フォンデュ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fad5.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fad5.svg"
+  },
+  {
+    "id": 373,
+    "name": "サラダ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f957.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f957.svg"
+  },
+  {
+    "id": 374,
+    "name": "ポップコーン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f37f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f37f.svg"
+  },
+  {
+    "id": 375,
+    "name": "バター",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c8.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c8.svg"
+  },
+  {
+    "id": 376,
+    "name": "缶詰",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f96b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f96b.svg"
+  },
+  {
+    "id": 377,
+    "name": "弁当",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f371.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f371.svg"
+  },
+  {
+    "id": 378,
+    "name": "せんべい",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f358.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f358.svg"
+  },
+  {
+    "id": 379,
+    "name": "ご飯",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f35a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f35a.svg"
+  },
+  {
+    "id": 380,
+    "name": "カレーライス",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f35b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f35b.svg"
+  },
+  {
+    "id": 381,
+    "name": "ラーメン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f35c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f35c.svg"
+  },
+  {
+    "id": 382,
+    "name": "スパゲッティ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f35d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f35d.svg"
+  },
+  {
+    "id": 383,
+    "name": "焼き芋",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f360.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f360.svg"
+  },
+  {
+    "id": 384,
+    "name": "おでん",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f362.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f362.svg"
+  },
+  {
+    "id": 385,
+    "name": "寿司",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f363.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f363.svg"
+  },
+  {
+    "id": 386,
+    "name": "天ぷら",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f364.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f364.svg"
+  },
+  {
+    "id": 387,
+    "name": "かまぼこ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f365.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f365.svg"
+  },
+  {
+    "id": 388,
+    "name": "月餅",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f96e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f96e.svg"
+  },
+  {
+    "id": 389,
+    "name": "だんご",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f361.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f361.svg"
+  },
+  {
+    "id": 390,
+    "name": "餃子",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f95f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f95f.svg"
+  },
+  {
+    "id": 391,
+    "name": "フォーチュンクッキー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f960.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f960.svg"
+  },
+  {
+    "id": 392,
+    "name": "テイクアウト弁当",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f961.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f961.svg"
+  },
+  {
+    "id": 393,
+    "name": "アイスクリーム",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f368.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f368.svg"
+  },
+  {
+    "id": 394,
+    "name": "かき氷",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f367.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f367.svg"
+  },
+  {
+    "id": 395,
+    "name": "ソフトクリーム",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f366.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f366.svg"
+  },
+  {
+    "id": 396,
+    "name": "ドーナツ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f369.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f369.svg"
+  },
+  {
+    "id": 397,
+    "name": "クッキー",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f36a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f36a.svg"
+  },
+  {
+    "id": 398,
+    "name": "誕生日ケーキ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f382.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f382.svg"
+  },
+  {
+    "id": 399,
+    "name": "カップケーキ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f9c1.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f9c1.svg"
+  },
+  {
+    "id": 400,
+    "name": "パイ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f967.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f967.svg"
+  },
+  {
+    "id": 401,
+    "name": "チョコレート",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f36b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f36b.svg"
+  },
+  {
+    "id": 402,
+    "name": "キャンディ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f36c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f36c.svg"
+  },
+  {
+    "id": 403,
+    "name": "ペロペロキャンディ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f36d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f36d.svg"
+  },
+  {
+    "id": 404,
+    "name": "プリン",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f36e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f36e.svg"
+  },
+  {
+    "id": 405,
+    "name": "ハチミツ",
+    "category": "食べ物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f36f.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f36f.svg"
+  },
+  {
+    "id": 406,
+    "name": "芽",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f331.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f331.svg"
+  },
+  {
+    "id": 407,
+    "name": "常緑樹",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f332.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f332.svg"
+  },
+  {
+    "id": 408,
+    "name": "ヤシの木",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f334.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f334.svg"
+  },
+  {
+    "id": 409,
+    "name": "稲",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f33e.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f33e.svg"
+  },
+  {
+    "id": 410,
+    "name": "クローバー",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u2618.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u2618.svg"
+  },
+  {
+    "id": 411,
+    "name": "四つ葉のクローバー",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f340.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f340.svg"
+  },
+  {
+    "id": 412,
+    "name": "カエデの葉",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f341.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f341.svg"
+  },
+  {
+    "id": 413,
+    "name": "落ち葉",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f342.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f342.svg"
+  },
+  {
+    "id": 414,
+    "name": "風に舞う葉",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f343.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f343.svg"
+  },
+  {
+    "id": 415,
+    "name": "枯れ枝",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab9.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fab9.svg"
+  },
+  {
+    "id": 416,
+    "name": "ヒヤシンス",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fabb.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fabb.svg"
+  },
+  {
+    "id": 417,
+    "name": "ハス",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab7.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1fab7.svg"
+  },
+  {
+    "id": 418,
+    "name": "バラ",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f339.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f339.svg"
+  },
+  {
+    "id": 419,
+    "name": "しおれた花",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f940.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f940.svg"
+  },
+  {
+    "id": 420,
+    "name": "ハイビスカス",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f33a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f33a.svg"
+  },
+  {
+    "id": 421,
+    "name": "桜の花",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f338.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f338.svg"
+  },
+  {
+    "id": 422,
+    "name": "花",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f33c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f33c.svg"
+  },
+  {
+    "id": 423,
+    "name": "花束",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f490.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f490.svg"
+  },
+  {
+    "id": 424,
+    "name": "白い花",
+    "category": "植物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f4ae.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f4ae.svg"
+  },
+  {
+    "id": 425,
+    "name": "雪山",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3d4.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3d4.svg"
+  },
+  {
+    "id": 426,
+    "name": "キャンプ場",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3d5.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3d5.svg"
+  },
+  {
+    "id": 427,
+    "name": "海水浴場",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3d6.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3d6.svg"
+  },
+  {
+    "id": 428,
+    "name": "砂漠",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3dc.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3dc.svg"
+  },
+  {
+    "id": 429,
+    "name": "無人島",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3dd.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3dd.svg"
+  },
+  {
+    "id": 430,
+    "name": "国立公園",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3de.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3de.svg"
+  },
+  {
+    "id": 431,
+    "name": "スタジアム",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3df.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3df.svg"
+  },
+  {
+    "id": 432,
+    "name": "博物館",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3db.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3db.svg"
+  },
+  {
+    "id": 433,
+    "name": "家",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e0.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e0.svg"
+  },
+  {
+    "id": 434,
+    "name": "庭のある家",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e1.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e1.svg"
+  },
+  {
+    "id": 435,
+    "name": "オフィスビル",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e2.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e2.svg"
+  },
+  {
+    "id": 436,
+    "name": "郵便局",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e3.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e3.svg"
+  },
+  {
+    "id": 437,
+    "name": "病院",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e5.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e5.svg"
+  },
+  {
+    "id": 438,
+    "name": "銀行",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e6.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e6.svg"
+  },
+  {
+    "id": 439,
+    "name": "ホテル",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3e8.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3e8.svg"
+  },
+  {
+    "id": 440,
+    "name": "コンビニ",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3ea.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3ea.svg"
+  },
+  {
+    "id": 441,
+    "name": "学校",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3eb.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3eb.svg"
+  },
+  {
+    "id": 442,
+    "name": "工場",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3ed.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3ed.svg"
+  },
+  {
+    "id": 443,
+    "name": "日本の城",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3ef.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3ef.svg"
+  },
+  {
+    "id": 444,
+    "name": "結婚式場",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f492.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f492.svg"
+  },
+  {
+    "id": 445,
+    "name": "東京タワー",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f5fc.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f5fc.svg"
+  },
+  {
+    "id": 446,
+    "name": "自由の女神",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f5fd.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f5fd.svg"
+  },
+  {
+    "id": 447,
+    "name": "街並み",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f3d9.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f3d9.svg"
+  },
+  {
+    "id": 448,
+    "name": "夕焼け",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f307.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f307.svg"
+  },
+  {
+    "id": 449,
+    "name": "夕暮れの街",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f306.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f306.svg"
+  },
+  {
+    "id": 450,
+    "name": "星空",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f303.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f303.svg"
+  },
+  {
+    "id": 451,
+    "name": "天の川",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f30c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f30c.svg"
+  },
+  {
+    "id": 452,
+    "name": "虹",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f308.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f308.svg"
+  },
+  {
+    "id": 453,
+    "name": "大波",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f30a.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f30a.svg"
+  },
+  {
+    "id": 454,
+    "name": "噴水",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u26f2.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u26f2.svg"
+  },
+  {
+    "id": 455,
+    "name": "キャンプ",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u26fa.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u26fa.svg"
+  },
+  {
+    "id": 456,
+    "name": "温泉",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u2668.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u2668.svg"
+  },
+  {
+    "id": 457,
+    "name": "神社",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u26e9.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u26e9.svg"
+  },
+  {
+    "id": 458,
+    "name": "教会",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u26ea.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u26ea.svg"
+  },
+  {
+    "id": 459,
+    "name": "モスク",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f54c.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f54c.svg"
+  },
+  {
+    "id": 460,
+    "name": "シナゴーグ",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f54d.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f54d.svg"
+  },
+  {
+    "id": 461,
+    "name": "カーバ神殿",
+    "category": "建物",
+    "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f54b.svg",
+    "creator": "Google / Noto Emoji contributors",
+    "license": "Apache License 2.0",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE",
+    "source": "https://github.com/googlefonts/noto-emoji/blob/main/svg/emoji_u1f54b.svg"
+  },
+  {
+    "id": 462,
+    "name": "ガ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Macroglossum_stellatarum01%28js%29.jpg/960px-Macroglossum_stellatarum01%28js%29.jpg",
+    "creator": "Jerzy Strzelecki",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macroglossum_stellatarum01(js).jpg"
+  },
+  {
+    "id": 463,
+    "name": "ガ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Macroglossum_stellatarum1_NR.jpg/960px-Macroglossum_stellatarum1_NR.jpg",
+    "creator": "IronChris",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Macroglossum_stellatarum1_NR.jpg"
+  },
+  {
+    "id": 464,
+    "name": "アゲハチョウ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Swallowtail_Butterfly_%28219489639%29.jpeg/960px-Swallowtail_Butterfly_%28219489639%29.jpeg",
+    "creator": "Sue Corbisez",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Swallowtail_Butterfly_(219489639).jpeg"
+  },
+  {
+    "id": 465,
+    "name": "アゲハチョウ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Swallowtail_Butterfly_%28219489637%29.jpeg/960px-Swallowtail_Butterfly_%28219489637%29.jpeg",
+    "creator": "Sue Corbisez",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Swallowtail_Butterfly_(219489637).jpeg"
+  },
+  {
+    "id": 466,
+    "name": "モンシロチョウ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Large_white_%28Pieris_brassicae%29_underside.jpg/960px-Large_white_%28Pieris_brassicae%29_underside.jpg",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_white_(Pieris_brassicae)_underside.jpg"
+  },
+  {
+    "id": 467,
+    "name": "モンシロチョウ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pieris_brassicae_%286%29.jpg/960px-Pieris_brassicae_%286%29.jpg",
+    "creator": "Thomas Bresson",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pieris_brassicae_(6).jpg"
+  },
+  {
+    "id": 468,
+    "name": "オニヤンマ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Hairy_dragonfly_%28Brachytron_pratense%29_male_close_up.jpg/960px-Hairy_dragonfly_%28Brachytron_pratense%29_male_close_up.jpg",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairy_dragonfly_(Brachytron_pratense)_male_close_up.jpg"
+  },
+  {
+    "id": 469,
+    "name": "オニヤンマ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Anisozygoptera_dragonfly_macro_insect_photography.jpg/960px-Anisozygoptera_dragonfly_macro_insect_photography.jpg",
+    "creator": "Gorman Lewis, U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Anisozygoptera_dragonfly_macro_insect_photography.jpg"
+  },
+  {
+    "id": 470,
+    "name": "イトトンボ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Damselfly_emergence-Aralam-2016-10-29-001.jpg/960px-Damselfly_emergence-Aralam-2016-10-29-001.jpg",
+    "creator": "Jeevan Jose, Kerala, India",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Damselfly_emergence-Aralam-2016-10-29-001.jpg"
+  },
+  {
+    "id": 471,
+    "name": "イトトンボ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Macro_Shot_of_Damselfly_and_Insect.jpg/960px-Macro_Shot_of_Damselfly_and_Insect.jpg",
+    "creator": "Parvez05",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macro_Shot_of_Damselfly_and_Insect.jpg"
+  },
+  {
+    "id": 472,
+    "name": "ハナムグリ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/%28MHNT%29_Trichius_gallicus_on_Rosa_canina.jpg/960px-%28MHNT%29_Trichius_gallicus_on_Rosa_canina.jpg",
+    "creator": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Trichius_gallicus_on_Rosa_canina.jpg"
+  },
+  {
+    "id": 473,
+    "name": "ハナムグリ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Trichius_gallicus_2601.jpg/960px-Trichius_gallicus_2601.jpg",
+    "creator": "Balles2601",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trichius_gallicus_2601.jpg"
+  },
+  {
+    "id": 474,
+    "name": "タマムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Unidentified_Jewel_Beetle_%28Buprestidae%29_%2834086723870%29.jpg/960px-Unidentified_Jewel_Beetle_%28Buprestidae%29_%2834086723870%29.jpg",
+    "creator": "Insects Unlocked",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Unidentified_Jewel_Beetle_(Buprestidae)_(34086723870).jpg"
+  },
+  {
+    "id": 475,
+    "name": "タマムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Buprestidae%2C_Julodinae_sorted_by_color.jpg/960px-Buprestidae%2C_Julodinae_sorted_by_color.jpg",
+    "creator": "Michael Scheuerl",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Buprestidae,_Julodinae_sorted_by_color.jpg"
+  },
+  {
+    "id": 476,
+    "name": "ゲンゴロウ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dytiscus_marginalis_01_by-dpckk.jpg/960px-Dytiscus_marginalis_01_by-dpckk.jpg",
+    "creator": "Dytiscus_marginalis_01_by-dpc.jpg: David Perez\nderivative work: B kimmel (talk)",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dytiscus_marginalis_01_by-dpckk.jpg"
+  },
+  {
+    "id": 477,
+    "name": "ゲンゴロウ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dytiscus_marginalis-o.jpg/960px-Dytiscus_marginalis-o.jpg",
+    "creator": "Magnefl",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dytiscus_marginalis-o.jpg"
+  },
+  {
+    "id": 478,
+    "name": "カミキリムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Longhorn_Beetle_Whitespotted_Sawyer_USA.jpg/960px-Longhorn_Beetle_Whitespotted_Sawyer_USA.jpg",
+    "creator": "Thomas Schoch",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Longhorn_Beetle_Whitespotted_Sawyer_USA.jpg"
+  },
+  {
+    "id": 479,
+    "name": "カミキリムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gerania_bosci_bosci_%28longhorn_beetle%29_on_a_coconut_%28focus_stacking%29.jpg/960px-Gerania_bosci_bosci_%28longhorn_beetle%29_on_a_coconut_%28focus_stacking%29.jpg",
+    "creator": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gerania_bosci_bosci_(longhorn_beetle)_on_a_coconut_(focus_stacking).jpg"
+  },
+  {
+    "id": 480,
+    "name": "ゾウムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Strawberry_Blossom_Weevil_%28Anthonomus_rubi%29_on_Tansy_%28Tanacetum_vulgare%29_-_Oslo%2C_Norway_2020-08-15.jpg",
+    "creator": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Strawberry_Blossom_Weevil_(Anthonomus_rubi)_on_Tansy_(Tanacetum_vulgare)_-_Oslo,_Norway_2020-08-15.jpg"
+  },
+  {
+    "id": 481,
+    "name": "ゾウムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Curculio_nucum-20220808-RM-090446.jpg/960px-Curculio_nucum-20220808-RM-090446.jpg",
+    "creator": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Curculio_nucum-20220808-RM-090446.jpg"
+  },
+  {
+    "id": 482,
+    "name": "ミノムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Evergreen_bagworm_moth_%2835175%29.jpg/960px-Evergreen_bagworm_moth_%2835175%29.jpg",
+    "creator": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Evergreen_bagworm_moth_(35175).jpg"
+  },
+  {
+    "id": 483,
+    "name": "ミノムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Psychidae_3.jpg/960px-Psychidae_3.jpg",
+    "creator": "Nativeplants garden",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Psychidae_3.jpg"
+  },
+  {
+    "id": 484,
+    "name": "ケムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Hairy_caterpillar_on_a_twig_%28Unsplash%29.jpg/960px-Hairy_caterpillar_on_a_twig_%28Unsplash%29.jpg",
+    "creator": "Jairo Alzate jairoalzate",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairy_caterpillar_on_a_twig_(Unsplash).jpg"
+  },
+  {
+    "id": 485,
+    "name": "ケムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hairy_larva.jpg/960px-Hairy_larva.jpg",
+    "creator": "Tiia Monto",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairy_larva.jpg"
+  },
+  {
+    "id": 486,
+    "name": "ハエ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Housefly_image_photography.jpg/960px-Housefly_image_photography.jpg",
+    "creator": "MaheshBalaji. n",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Housefly_image_photography.jpg"
+  },
+  {
+    "id": 487,
+    "name": "ハエ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Macro_%2847921782%29.jpeg/960px-Macro_%2847921782%29.jpeg",
+    "creator": "Sathya Babu",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macro_(47921782).jpeg"
+  },
+  {
+    "id": 488,
+    "name": "蚊",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Variety_of_different_insect_wings%2C_details_of_wings_of_a_mosquito%2C_a_series_of_photos%2C_2nd_of_3.jpg/960px-Variety_of_different_insect_wings%2C_details_of_wings_of_a_mosquito%2C_a_series_of_photos%2C_2nd_of_3.jpg",
+    "creator": "Retro Lenses",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Variety_of_different_insect_wings,_details_of_wings_of_a_mosquito,_a_series_of_photos,_2nd_of_3.jpg"
+  },
+  {
+    "id": 489,
+    "name": "蚊",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mosquito_%28Culicidae%29_-_Algonquin_Provincial_Park%2C_Ontario.jpg/960px-Mosquito_%28Culicidae%29_-_Algonquin_Provincial_Park%2C_Ontario.jpg",
+    "creator": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mosquito_(Culicidae)_-_Algonquin_Provincial_Park,_Ontario.jpg"
+  },
+  {
+    "id": 490,
+    "name": "コオロギ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kioloa_cricket_stack.jpg/960px-Kioloa_cricket_stack.jpg",
+    "creator": "Toby Hudson",
+    "license": "CC BY-SA 3.0 au",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kioloa_cricket_stack.jpg"
+  },
+  {
+    "id": 491,
+    "name": "コオロギ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Leptophyes_punctatissima_-20200629-RM-083405.jpg/960px-Leptophyes_punctatissima_-20200629-RM-083405.jpg",
+    "creator": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leptophyes_punctatissima_-20200629-RM-083405.jpg"
+  },
+  {
+    "id": 492,
+    "name": "キリギリス",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bush-cricket_02_%28MK%29.JPG/960px-Bush-cricket_02_%28MK%29.JPG",
+    "creator": "Leviathan (talk)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bush-cricket_02_(MK).JPG"
+  },
+  {
+    "id": 493,
+    "name": "キリギリス",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tettigonia_virdissima_nymph_on_Phleum_pratense.jpg/960px-Tettigonia_virdissima_nymph_on_Phleum_pratense.jpg",
+    "creator": "Richard Bartz, Munich aka Makro Freak Image:MFB.jpg",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Tettigonia_virdissima_nymph_on_Phleum_pratense.jpg"
+  },
+  {
+    "id": 494,
+    "name": "ナナフシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Macro_stick_insect_manish.JPG/960px-Macro_stick_insect_manish.JPG",
+    "creator": "Manisamg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macro_stick_insect_manish.JPG"
+  },
+  {
+    "id": 495,
+    "name": "ナナフシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Thorny_Stick_Insect_%2849183865431%29.jpg/960px-Thorny_Stick_Insect_%2849183865431%29.jpg",
+    "creator": "john.purvis",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Thorny_Stick_Insect_(49183865431).jpg"
+  },
+  {
+    "id": 496,
+    "name": "カメムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Brown_marmorated_stink_bug_nymph%2C_front_portrait_%289766583696%29.jpg/960px-Brown_marmorated_stink_bug_nymph%2C_front_portrait_%289766583696%29.jpg",
+    "creator": "photochem_PA from State College, PA, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_nymph,_front_portrait_(9766583696).jpg"
+  },
+  {
+    "id": 497,
+    "name": "カメムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/39_105_Stink_Bug_%28146869373%29.jpeg/960px-39_105_Stink_Bug_%28146869373%29.jpeg",
+    "creator": "Matthew Bellemare",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:39_105_Stink_Bug_(146869373).jpeg"
+  },
+  {
+    "id": 498,
+    "name": "アメンボ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Water_strider_%28Gerridae_sp.%29_Makiling.jpg/960px-Water_strider_%28Gerridae_sp.%29_Makiling.jpg",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Water_strider_(Gerridae_sp.)_Makiling.jpg"
+  },
+  {
+    "id": 499,
+    "name": "アメンボ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pond_skaters_%28Gerris_lacustris%29.jpg/960px-Pond_skaters_%28Gerris_lacustris%29.jpg",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pond_skaters_(Gerris_lacustris).jpg"
+  },
+  {
+    "id": 500,
+    "name": "ハサミムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Dermaptera_%28Earwig%29_06323.jpg/960px-Dermaptera_%28Earwig%29_06323.jpg",
+    "creator": "Vengolis",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dermaptera_(Earwig)_06323.jpg"
+  },
+  {
+    "id": 501,
+    "name": "ハサミムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/European_Earwig_%28Forficula_auricularia%29_-_Guelph%2C_Ontario_2017-05-17.jpg/960px-European_Earwig_%28Forficula_auricularia%29_-_Guelph%2C_Ontario_2017-05-17.jpg",
+    "creator": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Earwig_(Forficula_auricularia)_-_Guelph,_Ontario_2017-05-17.jpg"
+  },
+  {
+    "id": 502,
+    "name": "ハチの巣",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Abandoned_bee_honeycomb.jpg/960px-Abandoned_bee_honeycomb.jpg",
+    "creator": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Abandoned_bee_honeycomb.jpg"
+  },
+  {
+    "id": 503,
+    "name": "ハチの巣",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Western_honey_bee_on_a_honeycomb.jpg/960px-Western_honey_bee_on_a_honeycomb.jpg",
+    "creator": "Matthew T Rader",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_on_a_honeycomb.jpg"
+  },
+  {
+    "id": 504,
+    "name": "クモ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Spider_web_Luc_Viatour.jpg/960px-Spider_web_Luc_Viatour.jpg",
+    "creator": "Luc Viatour",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Spider_web_Luc_Viatour.jpg"
+  },
+  {
+    "id": 505,
+    "name": "クモ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Argiope_spider_female_adult_on_her_web_dorsal_view_black_background_Don_Det_Laos.jpg/960px-Argiope_spider_female_adult_on_her_web_dorsal_view_black_background_Don_Det_Laos.jpg",
+    "creator": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Argiope_spider_female_adult_on_her_web_dorsal_view_black_background_Don_Det_Laos.jpg"
+  },
+  {
+    "id": 506,
+    "name": "サソリ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Buthus_ibericus.jpg/960px-Buthus_ibericus.jpg",
+    "creator": "Mario Modesto Mata",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Buthus_ibericus.jpg"
+  },
+  {
+    "id": 507,
+    "name": "サソリ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Emperor_scorpion_or_Imperial_scorpion_%28Pandinus_imperator%29.jpg/960px-Emperor_scorpion_or_Imperial_scorpion_%28Pandinus_imperator%29.jpg",
+    "creator": "Mike Baird",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emperor_scorpion_or_Imperial_scorpion_(Pandinus_imperator).jpg"
+  },
+  {
+    "id": 508,
+    "name": "ダンゴムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pill_bug_on_a_rock_%288982336936%29.jpg/960px-Pill_bug_on_a_rock_%288982336936%29.jpg",
+    "creator": "photochem_PA from State College, PA, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pill_bug_on_a_rock_(8982336936).jpg"
+  },
+  {
+    "id": 509,
+    "name": "ダンゴムシ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Armadillidiidae_-_Pill_Bug_-_Roly_Poly_-_Grant_Peier.jpg/960px-Armadillidiidae_-_Pill_Bug_-_Roly_Poly_-_Grant_Peier.jpg",
+    "creator": "MacroGrant",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Armadillidiidae_-_Pill_Bug_-_Roly_Poly_-_Grant_Peier.jpg"
+  },
+  {
+    "id": 510,
+    "name": "ムカデ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Centipede_macro_%286256186005%29.jpg/960px-Centipede_macro_%286256186005%29.jpg",
+    "creator": "Thomas Quine",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Centipede_macro_(6256186005).jpg"
+  },
+  {
+    "id": 511,
+    "name": "ムカデ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Stone_Centipede_%28Lithobiomorpha%29_-_Guelph%2C_Ontario_2016-07-04.jpg/960px-Stone_Centipede_%28Lithobiomorpha%29_-_Guelph%2C_Ontario_2016-07-04.jpg",
+    "creator": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stone_Centipede_(Lithobiomorpha)_-_Guelph,_Ontario_2016-07-04.jpg"
+  },
+  {
+    "id": 512,
+    "name": "ヤスデ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Palm_Millipede_%28B%C3%B8rstperletusenbein%29_%28Choneiulus_palmatus%29_-_B%C3%A6rum%2C_Norway_2022-05-20.jpg/960px-Palm_Millipede_%28B%C3%B8rstperletusenbein%29_%28Choneiulus_palmatus%29_-_B%C3%A6rum%2C_Norway_2022-05-20.jpg",
+    "creator": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palm_Millipede_(B%C3%B8rstperletusenbein)_(Choneiulus_palmatus)_-_B%C3%A6rum,_Norway_2022-05-20.jpg"
+  },
+  {
+    "id": 513,
+    "name": "ヤスデ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Palm_Millipede_%28B%C3%B8rstperletusenbein%29_%28Choneiulus_palmatus%29_-_B%C3%A6rum%2C_Norway_2021-05-14.jpg/960px-Palm_Millipede_%28B%C3%B8rstperletusenbein%29_%28Choneiulus_palmatus%29_-_B%C3%A6rum%2C_Norway_2021-05-14.jpg",
+    "creator": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palm_Millipede_(B%C3%B8rstperletusenbein)_(Choneiulus_palmatus)_-_B%C3%A6rum,_Norway_2021-05-14.jpg"
+  },
+  {
+    "id": 514,
+    "name": "ミミズ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Aporrectodea_rosea_%28Gelderland%2C_Netherlands%29.jpg/960px-Aporrectodea_rosea_%28Gelderland%2C_Netherlands%29.jpg",
+    "creator": "Jochem Kühnen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aporrectodea_rosea_(Gelderland,_Netherlands).jpg"
+  },
+  {
+    "id": 515,
+    "name": "ミミズ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aporrectodea_rosea_258682963.jpg/960px-Aporrectodea_rosea_258682963.jpg",
+    "creator": "Поляков Александр",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aporrectodea_rosea_258682963.jpg"
+  },
+  {
+    "id": 516,
+    "name": "カタツムリ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Golden_apple_snail_eggs.jpg/960px-Golden_apple_snail_eggs.jpg",
+    "creator": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_apple_snail_eggs.jpg"
+  },
+  {
+    "id": 517,
+    "name": "カタツムリ",
+    "category": "昆虫",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Snail_macro.jpg/960px-Snail_macro.jpg",
+    "creator": "Roger Heslop",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Snail_macro.jpg"
   }
 ]

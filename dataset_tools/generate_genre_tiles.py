@@ -31,7 +31,7 @@ OUT_DIR = os.path.join(PROJECT_DIR, "static", "genre_tiles")
 DATASET_JSON = os.path.join(PROJECT_DIR, "static", "dataset", "characters.json")
 
 SIZE = 400  # タイル画像の一辺（px）
-HEADERS = {"User-Agent": "hakushi-akande-dataset/1.0 (school festival drawing game)"}
+HEADERS = {"User-Agent": "oekaki-yaroka-dataset/1.0 (school festival drawing game)"}
 
 # 日本語フォント（Mac標準のヒラギノ丸ゴシックを使う）
 FONT_PATH = "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc"

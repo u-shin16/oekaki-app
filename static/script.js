@@ -14,7 +14,7 @@
    ------------------------------------------------------------ */
 const state = {
   phase: "setup",      // 今の画面: setup / loading / countdown / drawing / paused / timeup / finished
-  genre: "pokemon",    // お題のジャンル："pokemon" または "dataset:カテゴリ名"（"dataset:all"で全ジャンル）
+  genre: "pokemon",    // お題のジャンル：pokemon / art / dataset:カテゴリ名
   timeLimit: 30,       // 制限時間（秒）
   totalSheets: 5,      // 描く枚数（1〜10）
   autoMode: false,     // 自動モード（時間切れになったらすぐ次のお題へ進む）
@@ -167,17 +167,44 @@ function updateSheetProgress() {
 }
 
 /* ------------------------------------------------------------
-   5. お題キャラクターの取得（Flask経由でPokeAPIから）
+   5. お題の取得（Flask経由で選択中のデータソースから）
    ------------------------------------------------------------ */
-// state.genre（"pokemon" または "dataset:カテゴリ名"）から、お題取得APIのURLを組み立てる
-function buildCharacterUrl(exclude) {
+// state.genre から、お題取得APIのURLを組み立てる
+function buildCharacterUrl(exclude, museum = "") {
+  const excludeParam = encodeURIComponent(exclude);
   if (state.genre === "pokemon") {
-    return `/api/character?source=pokemon&exclude=${exclude}`;
+    return `/api/character?source=pokemon&exclude=${excludeParam}`;
+  }
+  if (state.genre === "art") {
+    const museumParam = museum ? `&museum=${encodeURIComponent(museum)}` : "";
+    return `/api/character?source=art&exclude=${excludeParam}${museumParam}`;
   }
   // "dataset:動物" → カテゴリ="動物"、"dataset:all" → 全ジャンル（カテゴリ指定なし）
   const category = state.genre.slice("dataset:".length);
   const categoryParam = category === "all" ? "" : `&category=${encodeURIComponent(category)}`;
-  return `/api/character?source=dataset${categoryParam}&exclude=${exclude}`;
+  return `/api/character?source=dataset${categoryParam}&exclude=${excludeParam}`;
+}
+
+async function requestCharacter(url) {
+  const res = await fetch(url);
+  const character = await res.json().catch(() => null);
+  if (!res.ok || !character || character.error) {
+    const reason = character && character.error
+      ? character.error
+      : "サーバーからお題を取得できませんでした";
+    throw new Error(reason);
+  }
+  return character;
+}
+
+function loadCharacterImage(character) {
+  return new Promise((resolve) => {
+    el.charImage.onload = () => resolve(true);
+    el.charImage.onerror = () => resolve(false);
+    el.charImage.classList.toggle("contain-image", character.image_fit === "contain");
+    el.charImage.src = character.image;
+    el.charImage.alt = `お題：${character.name}`;
+  });
 }
 
 async function fetchCharacter() {
@@ -190,31 +217,24 @@ async function fetchCharacter() {
 
   // 出題済みIDをカンマ区切りにしてサーバーに渡す（重複防止）
   const exclude = state.usedIds.join(",");
-  const url = buildCharacterUrl(exclude);
+  let character = await requestCharacter(buildCharacterUrl(exclude));
 
-  const res = await fetch(url);
-  // エラーのときもサーバーはJSONで理由を返してくるので、まず中身を読む
-  const character = await res.json().catch(() => null);
-  if (!res.ok || !character || character.error) {
-    // サーバーが理由を教えてくれていればそれを表示する
-    const reason = character && character.error
-      ? character.error
-      : "サーバーからお題を取得できませんでした";
-    throw new Error(reason);
+  // 画像URLは外部URLのままimgタグへ設定する。シカゴ側の配信が一時的に
+  // 拒否された場合だけ、メトロポリタンの別作品へ切り替える。
+  let imageLoaded = await loadCharacterImage(character);
+  if (!imageLoaded && state.genre === "art") {
+    const fallbackExclude = [...state.usedIds, character.id].join(",");
+    character = await requestCharacter(buildCharacterUrl(fallbackExclude, "met"));
+    imageLoaded = await loadCharacterImage(character);
+  }
+  if (!imageLoaded) {
+    throw new Error("お題画像を読み込めませんでした");
   }
 
   // 出題済みリストに追加して、状態を更新する
   state.currentCharacter = character;
   state.usedIds.push(character.id);
   updateUsedCount();
-
-  // 画像の読み込みが終わるまで待つ（真っ白なまま始まらないように）
-  await new Promise((resolve) => {
-    el.charImage.onload = resolve;
-    el.charImage.onerror = resolve; // 画像が無いポケモンでも止まらないように
-    el.charImage.src = character.image;
-    el.charImage.alt = `お題：${character.name}`;
-  });
 
   // 読み込み表示を消して、キャラクターを表示する
   el.loading.classList.add("hidden");
@@ -504,6 +524,7 @@ function buildResultGrid() {
     img.src = character.image;
     img.alt = ""; // 名前はラベルで読むので画像は飾り扱い
     img.loading = "lazy";
+    img.classList.toggle("contain-image", character.image_fit === "contain");
 
     const label = document.createElement("span");
     label.className = "result-label";
@@ -553,7 +574,7 @@ el.timeBtns.forEach((btn) => {
 });
 
 // ジャンルボタン：押したものだけ選択状態にする
-// （ポケモン・ぜんぶは最初からHTMLにあり、ほかはloadGenres()で後から追加される。
+// （ポケモン・ぜんぶ・名画は最初からHTMLにあり、ほかはloadGenres()で後から追加される。
 //   親要素でクリックを拾う「イベント委任」なので、後から増えたボタンにも効く）
 if (el.genreRow) {
   el.genreRow.addEventListener("click", (e) => {
@@ -575,8 +596,7 @@ const GENRE_ICONS = {
   "動物": "🐾",
   "昆虫": "🐛",
   "食べ物": "🍙",
-  "乗り物": "🚗",
-  "建物": "🏛️",
+  "風景": "🏞️",
   "植物": "🌿",
 };
 
@@ -585,12 +605,18 @@ const GENRE_TILE_FILES = {
   "動物": "animal.webp",
   "昆虫": "insect.webp",
   "食べ物": "food.webp",
-  "乗り物": "vehicle.webp",
-  "建物": "building.webp",
+  "風景": "scenery.webp",
   "植物": "plant.webp",
 };
 
-const HIDDEN_GENRE_CATEGORIES = new Set(["スポーツ用品", "スポーツ用具", "道具", "楽器"]);
+const HIDDEN_GENRE_CATEGORIES = new Set([
+  "スポーツ用品",
+  "スポーツ用具",
+  "道具",
+  "楽器",
+  "乗り物",
+  "キャラクター",
+]);
 
 // サーバーのお題データセットからジャンル一覧を取ってきて、
 // 「ポケモン」「ぜんぶ」の後ろに写真タイルのボタンを追加する
@@ -598,6 +624,10 @@ async function loadGenres() {
   if (!el.genreRow) return;
 
   try {
+    el.genreRow
+      .querySelectorAll('.genre-btn[data-genre^="dataset:"]:not([data-genre="dataset:all"])')
+      .forEach((btn) => btn.remove());
+
     const res = await fetch("/api/genres");
     const data = await res.json();
     (data.categories || []).forEach((category) => {

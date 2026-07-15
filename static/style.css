@@ -1,5 +1,5 @@
 /* ============================================================
-   おえかきやろか- スタイルシート
+   おえかきやろか - スタイルシート
    - スマホを机に置いて使う前提で、大きく見やすい表示にする
    - ダークモードは body に .dark クラスを付けて切り替える
    ============================================================ */
@@ -208,6 +208,26 @@ main {
   display: block;
 }
 
+/* 外部画像を直接使うタイルも、文字を焼き込んだ既存タイルと同じ見た目にする */
+.genre-btn-labeled img {
+  filter: brightness(0.24);
+}
+
+.genre-tile-label {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 0 2px 3px #000;
+  pointer-events: none;
+}
+
 .genre-btn.selected {
   border-color: var(--primary);
 }
@@ -356,6 +376,7 @@ body.playing main {
   flex: 1;        /* mainの高さを全部使う */
   min-height: 0;
   gap: 12px;
+  --topic-image-size: min(86vw, calc(100dvh - 220px), 640px);
 }
 
 /* 上部バー（枚数・出題数・メニューボタン） */
@@ -480,25 +501,27 @@ body.playing main {
   50%      { opacity: 0.55; }
 }
 
-/* キャラクター表示エリア：残りの高さを全部使う */
+/* キャラクター表示エリア */
 .character-area {
-  width: 100%;
-  flex: 1;          /* 画面の余った高さをすべてこのエリアに使う */
-  min-height: 0;    /* flexで縮められるようにするおまじない */
+  width: fit-content;
+  max-width: 100%;
+  flex: 0 1 auto;
   background: var(--card);
   border-radius: 20px;
-  padding: 12px;
+  padding: 10px;
   box-shadow: var(--shadow);
   display: grid;
-  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
   align-items: center;
   justify-items: center;
 }
 
 /* キャラクター画像：どのお題でも同じ表示枠に収める */
 .character-image {
-  width: min(78vw, 62dvh, 560px);
-  height: min(78vw, 62dvh, 560px);
+  width: var(--topic-image-size);
+  height: var(--topic-image-size);
+  max-width: 100%;
   object-fit: cover;
   display: block;
   border-radius: 14px;
@@ -506,11 +529,16 @@ body.playing main {
   user-select: none;
 }
 
+/* 縦横比がさまざまな名画は、作品全体が見えるように枠内へ収める */
+.character-image.contain-image,
+.result-item img.contain-image {
+  object-fit: contain;
+}
+
 /* キャラクター名 */
 .character-name {
   font-size: 1.7rem;
   font-weight: bold;
-  margin-top: 6px;
   text-align: center;
 }
 

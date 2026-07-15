@@ -52,7 +52,7 @@ LICENSES = "cc0,pdm,by,by-sa"
 # Openverseの匿名利用は約20回/分の制限があるので、検索1回ごとに少し待つ
 API_WAIT_SECONDS = 3.2
 
-HEADERS = {"User-Agent": "hakushi-akande-dataset/1.0 (school festival drawing game)"}
+HEADERS = {"User-Agent": "oekaki-yaroka-dataset/1.0 (school festival drawing game)"}
 
 # 人物・キャラクターらしき画像を除外するためのNGワード
 # （タイトル・タグにこれらが含まれていたらスキップする）

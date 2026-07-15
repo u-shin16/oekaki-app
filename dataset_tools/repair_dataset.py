@@ -40,7 +40,7 @@ REVIEW_DIR = os.environ.get(
 )
 
 API_URL = "https://api.openverse.org/v1/images/"
-HEADERS = {"User-Agent": "hakushi-akande-dataset/1.0 (school festival drawing game)"}
+HEADERS = {"User-Agent": "oekaki-yaroka-dataset/1.0 (school festival drawing game)"}
 API_WAIT_SECONDS = 3.2
 
 # 人物・キャラ・絵画・模型など「写真のお題」に不向きなもののNGワード

@@ -14,13 +14,13 @@
   <link rel="apple-touch-icon"
         href="{{ url_for('static', filename='apple-touch-icon.png') }}">
   <!-- Flaskのstaticフォルダの中のCSSを読み込む -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20260715-art-tile">
 </head>
 <body>
 
   <!-- ヘッダー：タイトルとダークモード切り替え -->
   <header class="app-header">
-    <h1 class="app-title">おえかきしよか</h1>
+    <h1 class="app-title">おえかきやろか</h1>
     <button id="theme-toggle" class="icon-btn" type="button"
             aria-label="ダークモードとライトモードを切り替える">🌙</button>
   </header>
@@ -48,6 +48,13 @@
                   aria-label="ジャンルをぜんぶにする">
             <img src="{{ url_for('static', filename='genre_tiles/all.webp') }}"
                  alt="" aria-hidden="true">
+          </button>
+          <button type="button" class="genre-btn genre-btn-labeled" data-genre="art"
+                  role="radio" aria-checked="false"
+                  aria-label="ジャンルを名画にする">
+            <img src="https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg"
+                 alt="" aria-hidden="true" referrerpolicy="no-referrer">
+            <span class="genre-tile-label" aria-hidden="true">名画</span>
           </button>
         </div>
       </fieldset>
@@ -230,6 +237,6 @@
   </footer>
 
   <!-- FlaskのstaticフォルダのJavaScriptを読み込む -->
-  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script src="{{ url_for('static', filename='script.js') }}?v=20260715-art-museums-2"></script>
 </body>
 </html>
