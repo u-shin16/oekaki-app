@@ -577,10 +577,7 @@ const GENRE_ICONS = {
   "食べ物": "🍙",
   "乗り物": "🚗",
   "建物": "🏛️",
-  "楽器": "🎵",
-  "スポーツ用品": "⚽",
   "植物": "🌿",
-  "道具": "🧰",
 };
 
 // カテゴリ名 → 写真タイル画像の対応表
@@ -590,11 +587,10 @@ const GENRE_TILE_FILES = {
   "食べ物": "food.webp",
   "乗り物": "vehicle.webp",
   "建物": "building.webp",
-  "楽器": "instrument.webp",
-  "スポーツ用品": "sports.webp",
   "植物": "plant.webp",
-  "道具": "tool.webp",
 };
+
+const HIDDEN_GENRE_CATEGORIES = new Set(["スポーツ用品", "スポーツ用具", "道具", "楽器"]);
 
 // サーバーのお題データセットからジャンル一覧を取ってきて、
 // 「ポケモン」「ぜんぶ」の後ろに写真タイルのボタンを追加する
@@ -605,6 +601,8 @@ async function loadGenres() {
     const res = await fetch("/api/genres");
     const data = await res.json();
     (data.categories || []).forEach((category) => {
+      if (HIDDEN_GENRE_CATEGORIES.has(category)) return;
+
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "genre-btn";

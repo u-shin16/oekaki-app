@@ -113,12 +113,19 @@ def _load_dataset():
     return _dataset_cache
 
 
+# データは残すけれど、ホーム画面のジャンル選択には出さないカテゴリ
+HIDDEN_GENRE_CATEGORIES = {"スポーツ用品", "スポーツ用具", "道具", "楽器"}
+
+
 def get_dataset_categories():
-    """データセットに含まれるジャンル名を、登場順の重複なしリストで返す"""
+    """ホーム画面に表示するジャンル名を、登場順の重複なしリストで返す"""
     seen = []
     for item in _load_dataset():
-        if item["category"] not in seen:
-            seen.append(item["category"])
+        category = item["category"]
+        if category in HIDDEN_GENRE_CATEGORIES:
+            continue
+        if category not in seen:
+            seen.append(category)
     return seen
 
 
@@ -216,7 +223,7 @@ def api_pokemon():
 @app.route("/api/genres")
 def api_genres():
     """
-    お題データセットに含まれるジャンル一覧を返す
+    ホーム画面に表示するジャンル一覧を返す
     （ホーム画面のジャンル選択ボタンを作るのに使う）
     """
     return jsonify({"categories": get_dataset_categories()})
