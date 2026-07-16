@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon"
         href="{{ url_for('static', filename='apple-touch-icon.png') }}">
   <!-- Flaskのstaticフォルダの中のCSSを読み込む -->
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20260716-genre-animals">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20260716-genre-art">
 </head>
 <body>
 
@@ -61,6 +61,12 @@
                   aria-label="ジャンルをぜんぶにする">
             <img src="{{ url_for('static', filename='genre_tiles/all.webp') }}"
                  alt="" aria-hidden="true">
+          </button>
+          <button type="button" class="genre-btn icon-fallback" data-genre="art"
+                  role="radio" aria-checked="false"
+                  aria-label="ジャンルを絵画にする">
+            <span class="genre-icon" aria-hidden="true">🖼️</span>
+            <span class="genre-label">絵画</span>
           </button>
         </div>
       </fieldset>
@@ -243,6 +249,6 @@
   </footer>
 
   <!-- FlaskのstaticフォルダのJavaScriptを読み込む -->
-<script src="{{ url_for('static', filename='script.js') }}?v=20260716-genre-animals"></script>
+<script src="{{ url_for('static', filename='script.js') }}?v=20260716-genre-art"></script>
 </body>
 </html>
