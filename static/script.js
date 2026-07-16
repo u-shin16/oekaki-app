@@ -583,6 +583,19 @@ el.timeBtns.forEach((btn) => {
 });
 
 function syncGenreSelection() {
+  // 写真モードではポケモンを出題できないため、選択中なら「ぜんぶ」へ移す。
+  if (state.mediaMode === "photo" && state.genres.includes("pokemon")) {
+    state.genres = ["dataset:all"];
+    state.genre = "dataset:all";
+  }
+
+  const pokemonBtn = document.querySelector('.genre-btn[data-genre="pokemon"]');
+  if (pokemonBtn) {
+    const disabled = state.mediaMode === "photo";
+    pokemonBtn.disabled = disabled;
+    pokemonBtn.setAttribute("aria-disabled", disabled ? "true" : "false");
+  }
+
   const selectedGenres = new Set(state.genres);
   document.querySelectorAll(".genre-btn").forEach((btn) => {
     const selected = selectedGenres.has(btn.dataset.genre);
@@ -592,6 +605,7 @@ function syncGenreSelection() {
 }
 
 function selectGenre(genre) {
+  if (state.mediaMode === "photo" && genre === "pokemon") return;
   state.genres = [genre];
   state.genre = state.genres[0];
   syncGenreSelection();
@@ -617,7 +631,7 @@ el.modeBtns.forEach((btn) => {
     btn.classList.add("selected");
     btn.setAttribute("aria-checked", "true");
     state.mediaMode = btn.dataset.mode;
-    // モードを切り替えても、ジャンル一覧と選択状態はそのままにする。
+    // モードを切り替えてもジャンル一覧は維持する。写真モードではポケモンだけ除外する。
     syncGenreSelection();
   });
 });

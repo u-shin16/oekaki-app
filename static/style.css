@@ -232,6 +232,12 @@ main {
   border-color: var(--primary);
 }
 
+.genre-btn:disabled {
+  cursor: not-allowed;
+  filter: grayscale(1);
+  opacity: 0.42;
+}
+
 /* データセットにまだ写真タイルが無いジャンルが来たときの保険
   （アイコン＋ラベルで代用する。JS側の GENRE_ICONS を参照） */
 .genre-btn.icon-fallback {
