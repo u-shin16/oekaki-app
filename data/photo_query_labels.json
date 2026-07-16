@@ -2,6 +2,12 @@
   "animals": {
     "dog": "犬", "cat": "猫", "elephant": "ゾウ", "penguin": "ペンギン", "lion": "ライオン", "rabbit": "ウサギ", "horse": "馬", "bear": "クマ", "giraffe": "キリン", "monkey": "サル", "tiger": "トラ", "panda": "パンダ", "zebra": "シマウマ", "deer": "シカ", "fox": "キツネ", "wolf": "オオカミ", "squirrel": "リス", "chipmunk": "シマリス", "hamster": "ハムスター", "mouse": "ネズミ", "cow": "ウシ", "pig": "ブタ", "sheep": "ヒツジ", "goat": "ヤギ", "chicken": "ニワトリ", "duck": "アヒル", "goose": "ガチョウ", "owl": "フクロウ", "eagle": "ワシ", "parrot": "オウム", "flamingo": "フラミンゴ", "peacock": "クジャク", "swan": "ハクチョウ", "seal": "アザラシ", "dolphin": "イルカ", "whale": "クジラ", "shark": "サメ", "turtle": "カメ", "frog": "カエル", "crocodile": "ワニ", "snake": "ヘビ", "lizard": "トカゲ", "butterfly": "チョウ", "bee": "ハチ", "ladybug": "テントウムシ", "spider": "クモ", "octopus": "タコ", "crab": "カニ", "kangaroo": "カンガルー", "koala": "コアラ"
   },
+  "insects": {
+    "butterfly": "チョウ",
+    "bee": "ハチ",
+    "ladybug": "テントウムシ",
+    "spider": "クモ"
+  },
   "food": {
     "pizza": "ピザ", "hamburger": "ハンバーガー", "sushi": "すし", "cake": "ケーキ", "bread": "パン", "fruit": "くだもの", "ramen": "ラーメン", "pasta": "パスタ", "ice cream": "アイスクリーム", "curry": "カレー", "salad": "サラダ", "steak": "ステーキ", "sandwich": "サンドイッチ", "soup": "スープ", "rice": "ごはん", "noodles": "めん", "dumplings": "ギョーザ", "tacos": "タコス", "burrito": "ブリトー", "fried chicken": "フライドチキン", "french fries": "フライドポテト", "pancake": "パンケーキ", "waffle": "ワッフル", "donut": "ドーナツ", "cookie": "クッキー", "chocolate": "チョコレート", "cheese": "チーズ", "egg": "たまご", "bacon": "ベーコン", "sausage": "ソーセージ", "toast": "トースト", "popcorn": "ポップコーン", "corn": "トウモロコシ", "tomato": "トマト", "strawberry": "いちご", "watermelon": "スイカ", "apple": "リンゴ", "banana": "バナナ", "orange": "オレンジ", "grapes": "ブドウ", "lemon": "レモン", "avocado": "アボカド", "mango": "マンゴー", "pineapple": "パイナップル", "peach": "モモ", "cherry": "サクランボ", "blueberry": "ブルーベリー", "raspberry": "ラズベリー", "coconut": "ココナッツ", "cupcake": "カップケーキ"
   },

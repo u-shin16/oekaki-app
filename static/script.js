@@ -626,6 +626,7 @@ el.modeBtns.forEach((btn) => {
 // 表にない名前が来ても🖼️（絵札）を使うので、データセット側の追加にも耐えられる
 const GENRE_ICONS = {
   "動物": "🐾",
+  "昆虫": "🐛",
   "絵画": "🖼️",
   "食べ物": "🍙",
   "自然": "🏞️",
@@ -643,6 +644,7 @@ const GENRE_ICONS = {
 // カテゴリ名 → 写真タイル画像の対応表
 const GENRE_TILE_FILES = {
   "動物": "animal.webp",
+  "昆虫": "insect.webp",
   "食べ物": "food.webp",
   "自然": "scenery.webp",
   "風景": "scenery.webp",

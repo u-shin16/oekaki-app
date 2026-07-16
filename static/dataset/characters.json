@@ -52,7 +52,7 @@
   {
     "id": 206,
     "name": "チョウ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f98b.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -62,7 +62,7 @@
   {
     "id": 207,
     "name": "ハチ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41d.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -72,7 +72,7 @@
   {
     "id": 208,
     "name": "テントウムシ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41e.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -82,7 +82,7 @@
   {
     "id": 209,
     "name": "アリ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41c.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -92,7 +92,7 @@
   {
     "id": 210,
     "name": "クモ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f577.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1022,7 +1022,7 @@
   {
     "id": 303,
     "name": "イモムシ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f41b.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1032,7 +1032,7 @@
   {
     "id": 304,
     "name": "カタツムリ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f40c.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1042,7 +1042,7 @@
   {
     "id": 305,
     "name": "コオロギ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f997.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1052,7 +1052,7 @@
   {
     "id": 306,
     "name": "甲虫",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab2.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1062,7 +1062,7 @@
   {
     "id": 307,
     "name": "ゴキブリ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab3.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1072,7 +1072,7 @@
   {
     "id": 308,
     "name": "ハエ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab0.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1082,7 +1082,7 @@
   {
     "id": 309,
     "name": "蚊",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f99f.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1092,7 +1092,7 @@
   {
     "id": 310,
     "name": "ミミズ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1fab1.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1102,7 +1102,7 @@
   {
     "id": 311,
     "name": "サソリ",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f982.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",
@@ -1112,7 +1112,7 @@
   {
     "id": 312,
     "name": "クモの巣",
-    "category": "動物",
+    "category": "昆虫",
     "image": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f578.svg",
     "creator": "Google / Noto Emoji contributors",
     "license": "Apache License 2.0",

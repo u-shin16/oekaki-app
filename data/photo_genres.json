@@ -2,7 +2,7 @@
   {
     "genre": "animals",
     "label": "動物",
-    "count": 100,
+    "count": 92,
     "queries": [
       "dog",
       "cat",
@@ -46,14 +46,21 @@
       "crocodile",
       "snake",
       "lizard",
-      "butterfly",
-      "bee",
-      "ladybug",
-      "spider",
       "octopus",
       "crab",
       "kangaroo",
       "koala"
+    ]
+  },
+  {
+    "genre": "insects",
+    "label": "昆虫",
+    "count": 8,
+    "queries": [
+      "butterfly",
+      "bee",
+      "ladybug",
+      "spider"
     ]
   },
   {
