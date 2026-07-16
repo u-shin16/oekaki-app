@@ -3,5 +3,6 @@
 !.env.example
 __pycache__/
 *.py[cod]
-static/photos/*
-!static/photos/.gitkeep
+# 公開環境でも使う写真素材はリポジトリに含める
+static/photos/.DS_Store
+static/photos/**/.DS_Store
