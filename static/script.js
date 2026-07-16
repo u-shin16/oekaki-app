@@ -14,7 +14,10 @@
    ------------------------------------------------------------ */
 const state = {
   phase: "setup",      // 今の画面: setup / loading / countdown / drawing / paused / timeup / finished
-  genre: "pokemon",    // お題のジャンル：pokemon / art / dataset:カテゴリ名
+  genre: "pokemon",    // 直近に出題したジャンル（互換用）
+  genres: ["pokemon"],  // 選択中のジャンル（内部では配列で保持）
+  activeGenre: "pokemon", // 現在のお題取得に使っているジャンル
+  mediaMode: "illustration", // ポケモン以外：illustration / photo
   timeLimit: 30,       // 制限時間（秒）
   totalSheets: 5,      // 描く枚数（1〜10）
   autoMode: false,     // 自動モード（時間切れになったらすぐ次のお題へ進む）
@@ -41,6 +44,7 @@ const el = {
   screenFinish: document.getElementById("screen-finish"),
   // 設定画面
   genreRow:     document.getElementById("genre-row"),
+  modeBtns:     document.querySelectorAll(".mode-btn"),
   timeBtns:     document.querySelectorAll(".time-btn"),
   countMinus:   document.getElementById("count-minus"),
   countPlus:    document.getElementById("count-plus"),
@@ -169,20 +173,25 @@ function updateSheetProgress() {
 /* ------------------------------------------------------------
    5. お題の取得（Flask経由で選択中のデータソースから）
    ------------------------------------------------------------ */
-// state.genre から、お題取得APIのURLを組み立てる
+// 選択中のジャンルから、お題取得APIのURLを組み立てる
 function buildCharacterUrl(exclude, museum = "") {
   const excludeParam = encodeURIComponent(exclude);
-  if (state.genre === "pokemon") {
+  const choices = state.genres.length ? state.genres : ["dataset:all"];
+  const selectedGenre = choices[Math.floor(Math.random() * choices.length)];
+  state.genre = selectedGenre;
+  state.activeGenre = selectedGenre;
+
+  if (selectedGenre === "pokemon") {
     return `/api/character?source=pokemon&exclude=${excludeParam}`;
   }
-  if (state.genre === "art") {
+  if (selectedGenre === "art") {
     const museumParam = museum ? `&museum=${encodeURIComponent(museum)}` : "";
     return `/api/character?source=art&exclude=${excludeParam}${museumParam}`;
   }
   // "dataset:動物" → カテゴリ="動物"、"dataset:all" → 全ジャンル（カテゴリ指定なし）
-  const category = state.genre.slice("dataset:".length);
+  const category = selectedGenre.slice("dataset:".length);
   const categoryParam = category === "all" ? "" : `&category=${encodeURIComponent(category)}`;
-  return `/api/character?source=dataset${categoryParam}&exclude=${excludeParam}`;
+  return `/api/character?source=dataset&mode=${encodeURIComponent(state.mediaMode)}${categoryParam}&exclude=${excludeParam}`;
 }
 
 async function requestCharacter(url) {
@@ -222,7 +231,7 @@ async function fetchCharacter() {
   // 画像URLは外部URLのままimgタグへ設定する。シカゴ側の配信が一時的に
   // 拒否された場合だけ、メトロポリタンの別作品へ切り替える。
   let imageLoaded = await loadCharacterImage(character);
-  if (!imageLoaded && state.genre === "art") {
+  if (!imageLoaded && state.activeGenre === "art") {
     const fallbackExclude = [...state.usedIds, character.id].join(",");
     character = await requestCharacter(buildCharacterUrl(fallbackExclude, "met"));
     imageLoaded = await loadCharacterImage(character);
@@ -573,50 +582,79 @@ el.timeBtns.forEach((btn) => {
   });
 });
 
-// ジャンルボタン：押したものだけ選択状態にする
-// （ポケモン・ぜんぶ・名画は最初からHTMLにあり、ほかはloadGenres()で後から追加される。
+function syncGenreSelection() {
+  const selectedGenres = new Set(state.genres);
+  document.querySelectorAll(".genre-btn").forEach((btn) => {
+    const selected = selectedGenres.has(btn.dataset.genre);
+    btn.classList.toggle("selected", selected);
+    btn.setAttribute("aria-checked", selected ? "true" : "false");
+  });
+}
+
+function selectGenre(genre) {
+  state.genres = [genre];
+  state.genre = state.genres[0];
+  syncGenreSelection();
+}
+
+// ジャンルボタン：一つだけ選ぶ選択式
+// （ポケモン・ぜんぶは最初からHTMLにあり、ほかはloadGenres()で後から追加される。
 //   親要素でクリックを拾う「イベント委任」なので、後から増えたボタンにも効く）
 if (el.genreRow) {
   el.genreRow.addEventListener("click", (e) => {
     const btn = e.target.closest(".genre-btn");
     if (!btn) return;
-    document.querySelectorAll(".genre-btn").forEach((b) => {
+    selectGenre(btn.dataset.genre);
+  });
+}
+
+el.modeBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    el.modeBtns.forEach((b) => {
       b.classList.remove("selected");
       b.setAttribute("aria-checked", "false");
     });
     btn.classList.add("selected");
     btn.setAttribute("aria-checked", "true");
-    state.genre = btn.dataset.genre;
+    state.mediaMode = btn.dataset.mode;
+    // モードを切り替えても、ジャンル一覧と選択状態はそのままにする。
+    syncGenreSelection();
   });
-}
+});
 
 // カテゴリ名 → 絵文字アイコンの対応表（見た目をそろえるため）
 // 表にない名前が来ても🖼️（絵札）を使うので、データセット側の追加にも耐えられる
 const GENRE_ICONS = {
   "動物": "🐾",
-  "昆虫": "🐛",
   "食べ物": "🍙",
+  "自然": "🏞️",
   "風景": "🏞️",
   "植物": "🌿",
+  "乗り物": "🚲",
+  "楽器": "🎸",
+  "スポーツ": "⚽",
+  "日用品": "🧰",
+  "スポーツ用品": "⚽",
+  "スポーツ用具": "⚽",
+  "道具": "📷",
 };
 
 // カテゴリ名 → 写真タイル画像の対応表
 const GENRE_TILE_FILES = {
   "動物": "animal.webp",
-  "昆虫": "insect.webp",
   "食べ物": "food.webp",
+  "自然": "scenery.webp",
   "風景": "scenery.webp",
+  "建物": "building.webp",
   "植物": "plant.webp",
+  "乗り物": "vehicle.webp",
+  "楽器": "instrument.webp",
+  "スポーツ": "sports.webp",
+  "日用品": "tool.webp",
+  "スポーツ用品": "sports.webp",
+  "スポーツ用具": "sports.webp",
+  "道具": "tool.webp",
 };
-
-const HIDDEN_GENRE_CATEGORIES = new Set([
-  "スポーツ用品",
-  "スポーツ用具",
-  "道具",
-  "楽器",
-  "乗り物",
-  "キャラクター",
-]);
 
 // サーバーのお題データセットからジャンル一覧を取ってきて、
 // 「ポケモン」「ぜんぶ」の後ろに写真タイルのボタンを追加する
@@ -628,16 +666,15 @@ async function loadGenres() {
       .querySelectorAll('.genre-btn[data-genre^="dataset:"]:not([data-genre="dataset:all"])')
       .forEach((btn) => btn.remove());
 
-    const res = await fetch("/api/genres");
+    // ジャンル一覧はモードに依存させず、イラスト側の一覧を基準に固定する。
+    const res = await fetch("/api/genres?mode=illustration");
     const data = await res.json();
     (data.categories || []).forEach((category) => {
-      if (HIDDEN_GENRE_CATEGORIES.has(category)) return;
-
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "genre-btn";
       btn.dataset.genre = `dataset:${category}`;
-      btn.setAttribute("role", "radio");
+    btn.setAttribute("role", "radio");
       btn.setAttribute("aria-checked", "false");
       btn.setAttribute("aria-label", `ジャンルを${category}にする`);
 
@@ -665,9 +702,11 @@ async function loadGenres() {
       }
       el.genreRow.appendChild(btn);
     });
+    syncGenreSelection();
   } catch (e) {
     // 取得できなくても致命的ではない（ポケモン・ぜんぶは変わらず使える）
     console.warn("ジャンル一覧の取得に失敗しました", e);
+    syncGenreSelection();
   }
 }
 

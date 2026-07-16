@@ -135,15 +135,219 @@ DATASET_CATEGORY_ALIASES = {"風景": "建物"}
 # まだデータが空でも、ホーム画面には先に置いておくジャンル
 EMPTY_DISPLAY_CATEGORIES = []
 
+PHOTO_GENRE_CONFIG_PATH = os.path.join(app.root_path, "data", "photo_genres.json")
+PHOTO_QUERY_LABELS_PATH = os.path.join(app.root_path, "data", "photo_query_labels.json")
+PHOTO_DIR = os.path.join(app.root_path, "static", "photos")
+PHOTO_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+PHOTO_CATEGORY_ALIASES = {"植物": "自然", "風景": "自然"}
+PHOTO_CATEGORY_QUERY_FILTERS = {
+    "植物": {
+        "flower", "tree", "garden", "cherry blossom", "bamboo", "palm tree",
+        "cactus", "mushroom", "fern", "rose", "sunflower", "tulip",
+    },
+    "風景": {
+        "mountain", "waterfall", "ocean", "river", "sunset", "forest",
+        "volcano", "island", "beach", "desert", "lake", "snow", "glacier",
+        "canyon", "cave", "meadow", "field", "jungle", "rainforest",
+        "autumn leaves", "lightning", "rainbow", "cloud", "starry sky", "moon",
+        "sunrise", "aurora", "fog", "storm", "waves", "stream", "cliff",
+        "valley", "hill", "coral reef", "ocean waves", "spring", "winter landscape",
+    },
+}
+_photo_genres_cache = None
+_photo_genres_cache_mtime = None
+_photo_query_labels_cache = None
+_photo_query_labels_mtime = None
 
-def get_dataset_categories():
+
+def _is_illustration_item(item):
+    """Noto Emoji API由来のSVGイラストだけを判定する"""
+    image = (item.get("image") or "").lower()
+    source = (item.get("source") or "").lower()
+    return image.endswith(".svg") or "noto-emoji" in image or "noto-emoji" in source
+
+
+def _load_illustration_dataset():
+    """イラストモードで出題するデータだけを返す"""
+    return [item for item in _load_dataset() if _is_illustration_item(item)]
+
+
+def _display_category(category):
+    return DISPLAY_CATEGORY_NAMES.get(category, category)
+
+
+def _load_photo_genres():
+    """写真ジャンル設定を読み込む。設定が壊れている場合は空配列にする"""
+    global _photo_genres_cache, _photo_genres_cache_mtime
+    try:
+        current_mtime = os.path.getmtime(PHOTO_GENRE_CONFIG_PATH)
+    except OSError:
+        return []
+    if _photo_genres_cache is not None and current_mtime == _photo_genres_cache_mtime:
+        return _photo_genres_cache
+
+    try:
+        with open(PHOTO_GENRE_CONFIG_PATH, encoding="utf-8") as f:
+            config = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        app.logger.exception("写真ジャンル設定を読み込めません")
+        _photo_genres_cache = []
+        _photo_genres_cache_mtime = current_mtime
+        return _photo_genres_cache
+
+    if not isinstance(config, list):
+        app.logger.error("写真ジャンル設定は配列で指定してください")
+        config = []
+    _photo_genres_cache = [
+        item for item in config
+        if isinstance(item, dict)
+        and isinstance(item.get("genre"), str)
+        and os.path.basename(item["genre"]) == item["genre"]
+        and not item["genre"].startswith(".")
+        and isinstance(item.get("label"), str)
+    ]
+    _photo_genres_cache_mtime = current_mtime
+    return _photo_genres_cache
+
+
+def _photo_genre_config(category):
+    """画面ラベルまたはフォルダ名から安全な写真ジャンル設定を探す"""
+    category = PHOTO_CATEGORY_ALIASES.get(category, category)
+    for item in _load_photo_genres():
+        if category in {item.get("genre"), item.get("label")}:
+            return item
+    return None
+
+
+def _load_photo_query_labels():
+    """写真の検索語を日本語のお題名へ変換する対応表を読み込む"""
+    global _photo_query_labels_cache, _photo_query_labels_mtime
+    try:
+        current_mtime = os.path.getmtime(PHOTO_QUERY_LABELS_PATH)
+    except OSError:
+        return {}
+    if (
+        _photo_query_labels_cache is not None
+        and current_mtime == _photo_query_labels_mtime
+    ):
+        return _photo_query_labels_cache
+
+    try:
+        with open(PHOTO_QUERY_LABELS_PATH, encoding="utf-8") as f:
+            labels = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        app.logger.exception("写真のお題名対応表を読み込めません")
+        labels = {}
+
+    _photo_query_labels_cache = labels if isinstance(labels, dict) else {}
+    _photo_query_labels_mtime = current_mtime
+    return _photo_query_labels_cache
+
+
+def _photo_display_name(config, query):
+    """写真の検索語を日本語のお題名にする"""
+    labels = _load_photo_query_labels().get(config["genre"], {})
+    if isinstance(query, str) and isinstance(labels, dict):
+        display_name = labels.get(query.strip())
+        if isinstance(display_name, str) and display_name.strip():
+            return display_name
+    return f"{config['label']}の写真"
+
+
+def _local_photo_categories():
+    """写真が1枚以上ある設定済みジャンルの表示ラベルを返す"""
+    categories = []
+    for item in _load_photo_genres():
+        if _local_photo_files(item["genre"]):
+            categories.append(item["label"])
+    return categories
+
+
+def _local_photo_files(genre):
+    """設定済みジャンルフォルダ内の画像ファイル一覧を返す"""
+    config = _photo_genre_config(genre)
+    if config is None:
+        return []
+    folder = os.path.join(PHOTO_DIR, config["genre"])
+    if not os.path.isdir(folder):
+        return []
+
+    files = []
+    for root, _, names in os.walk(folder):
+        for name in names:
+            if name.startswith("."):
+                continue
+            ext = os.path.splitext(name)[1].lower()
+            if ext not in PHOTO_EXTENSIONS:
+                continue
+            files.append(os.path.join(root, name))
+    return sorted(files)
+
+
+def _local_photo_candidates(category=None):
+    """ローカル写真モードの候補を、既存データと同じ形に整える"""
+    requested_category = category
+    if category and category != "all":
+        config = _photo_genre_config(category)
+        configs = [config] if config else []
+    else:
+        configs = _load_photo_genres()
+
+    candidates = []
+    static_root = os.path.join(app.root_path, "static")
+    for config in configs:
+        genre = config["genre"]
+        label = config["label"]
+        metadata_by_file = {}
+        metadata_path = os.path.join(PHOTO_DIR, genre, "metadata.json")
+        try:
+            with open(metadata_path, encoding="utf-8") as f:
+                metadata = json.load(f)
+            if isinstance(metadata, list):
+                metadata_by_file = {
+                    item.get("file"): item
+                    for item in metadata
+                    if isinstance(item, dict) and isinstance(item.get("file"), str)
+                }
+        except (OSError, json.JSONDecodeError):
+            app.logger.warning("写真メタデータを読み込めません: %s", metadata_path)
+        for path in _local_photo_files(genre):
+            try:
+                if os.path.commonpath([static_root, path]) != static_root:
+                    continue
+            except ValueError:
+                continue
+            rel_static_path = os.path.relpath(path, static_root)
+            url_path = "/static/" + "/".join(
+                urllib.parse.quote(part, safe="") for part in rel_static_path.split(os.sep)
+            )
+            photo_id = "photo:" + rel_static_path.replace(os.sep, "/")
+            metadata = metadata_by_file.get(os.path.basename(path), {})
+            query = metadata.get("query")
+            query_filter = PHOTO_CATEGORY_QUERY_FILTERS.get(requested_category)
+            if query_filter is not None and query not in query_filter:
+                continue
+            name = _photo_display_name(config, query)
+            candidates.append({
+                "id": photo_id,
+                "name": name,
+                "category": label,
+                "image": url_path,
+            })
+    return candidates
+
+
+def get_dataset_categories(mode="illustration"):
     """ホーム画面に表示するジャンル名を、登場順の重複なしリストで返す"""
+    if mode == "photo":
+        return _local_photo_categories()
+
     seen = []
-    for item in _load_dataset():
+    for item in _load_illustration_dataset():
         category = item["category"]
         if category in HIDDEN_GENRE_CATEGORIES:
             continue
-        display_category = DISPLAY_CATEGORY_NAMES.get(category, category)
+        display_category = _display_category(category)
         if display_category not in seen:
             seen.append(display_category)
     for category in EMPTY_DISPLAY_CATEGORIES:
@@ -156,7 +360,7 @@ class DatasetEmptyError(Exception):
     """指定されたジャンルにお題が1件も無かったときのエラー"""
 
 
-def get_random_dataset_item(exclude_ids, category=None):
+def get_random_dataset_item(exclude_ids, category=None, mode="illustration"):
     """
     お題データセットからランダムに1件取得する
 
@@ -164,7 +368,10 @@ def get_random_dataset_item(exclude_ids, category=None):
     category   : ジャンル名（動物・食べ物など）。None または "all" なら全ジャンルから選ぶ
     戻り値: {"id": ..., "name": ..., "image": ...}
     """
-    items = _load_dataset()
+    if mode == "photo":
+        return get_random_local_photo(exclude_ids, category=category)
+
+    items = _load_illustration_dataset()
     if category and category != "all":
         if category in EMPTY_DISPLAY_CATEGORIES:
             raise DatasetEmptyError(f"ジャンル「{category}」はまだお題がありません")
@@ -179,6 +386,22 @@ def get_random_dataset_item(exclude_ids, category=None):
     candidates = [it for it in items if it["id"] not in exclude_ids]
     if not candidates:
         # そのジャンルを出し尽くしたら、同じジャンルの中から選び直す
+        candidates = items
+
+    chosen = random.choice(candidates)
+    return {"id": chosen["id"], "name": chosen["name"], "image": chosen["image"]}
+
+
+def get_random_local_photo(exclude_ids, category=None):
+    """ローカル写真フォルダからランダムに1件取得する"""
+    items = _local_photo_candidates(category)
+    if not items:
+        target = f"ジャンル「{category}」" if category and category != "all" else "写真フォルダ"
+        raise DatasetEmptyError(f"{target}に写真がありません")
+
+    excluded = {str(item_id) for item_id in exclude_ids}
+    candidates = [item for item in items if str(item["id"]) not in excluded]
+    if not candidates:
         candidates = items
 
     chosen = random.choice(candidates)
@@ -400,6 +623,7 @@ def api_character():
 
     クエリパラメータ:
       source   : データソース名（pokemon・dataset・art。省略時は pokemon）
+      mode     : dataset専用。illustration または photo
       category : ジャンル名（dataset専用。動物・食べ物など。省略時は全ジャンル）
       museum   : 美術館名（art専用。artic または met）
       exclude  : 出題済みIDをカンマ区切りで渡す（例: exclude=25,133）
@@ -407,6 +631,7 @@ def api_character():
     source_name = request.args.get("source", "pokemon")
     category = request.args.get("category")
     museum = request.args.get("museum")
+    mode = request.args.get("mode", "illustration")
 
     # 登録されていないデータソースが指定されたらエラーを返す
     if source_name not in SOURCES:
@@ -423,8 +648,11 @@ def api_character():
             exclude_ids.append(item_id)
 
     try:
-        source_category = museum if source_name == "art" else category
-        character = SOURCES[source_name](exclude_ids, category=source_category)
+        if source_name == "dataset":
+            character = get_random_dataset_item(exclude_ids, category=category, mode=mode)
+        else:
+            source_category = museum if source_name == "art" else category
+            character = SOURCES[source_name](exclude_ids, category=source_category)
         return jsonify(character)
     except (urllib.error.URLError, TimeoutError, OSError) as e:
         # PokeAPIに繋がらないときなど（ネットワークエラー）
@@ -450,7 +678,8 @@ def api_genres():
     ホーム画面に表示するジャンル一覧を返す
     （ホーム画面のジャンル選択ボタンを作るのに使う）
     """
-    return jsonify({"categories": get_dataset_categories()})
+    mode = request.args.get("mode", "illustration")
+    return jsonify({"categories": get_dataset_categories(mode=mode)})
 
 
 # ============================================================
